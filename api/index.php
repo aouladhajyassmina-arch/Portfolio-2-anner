@@ -475,7 +475,7 @@ footer {
         </div>
         <div class="hero-card reveal">
             <div class="avatar-wrapper">
-                <img src="yasmina.jpg" alt="Yasmina Aouladhaj">
+                <img src="/images/me3.jpg" alt="Yasmina Aouladhaj">
             </div>
             <h3 style="margin-bottom: 8px;">Yasmina Aouladhaj</h3>
             <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0;">Maroc</p>
