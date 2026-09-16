@@ -10,18 +10,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
-    /* Palette : Noir + Marron / Crème */
-    --bg-main: #0b0908;
-    --bg-card: rgba(40, 22, 18, 0.45);
-    --bg-card-hover: rgba(58, 32, 24, 0.65);
-    --crimson: #8a4a1f;
-    --crimson-glow: rgba(212, 165, 90, 0.28);
-    --crimson-light: #f0dcb0;
-    --maron-khfif: #3d211a;
+    /* Palettes modifiées : Fond maron khfif w krimi */
+    --bg-main: #7d4c02c9;
+    --bg-card: rgba(45, 43, 18, 0.45);
+    --bg-card-hover: rgba(65, 54, 25, 0.65);
+    --crimson: #be8212;
+    --crimson-glow: rgba(190, 158, 18, 0.3);
+    --crimson-light: #fde5a4;
+    --maron-khfif: #5e5023;
     --text-main: #f9fafb;
-    --text-muted: #d8cdbe;
-    --border-color: rgba(212, 165, 90, 0.22);
-    --border-hover: rgba(212, 165, 90, 0.55);
+    --text-muted: #dbd7d1;
+    --border-color: rgba(190, 173, 18, 0.25);
+    --border-hover: rgba(190, 127, 18, 0.6);
     --max-width: 1200px;
 }
 
@@ -33,8 +33,8 @@ body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     overflow-x: hidden;
     background-image: 
-        radial-gradient(circle at 10% 20%, rgba(61, 33, 26, 0.35) 0%, transparent 40%),
-        radial-gradient(circle at 90% 80%, rgba(138, 74, 31, 0.15) 0%, transparent 40%);
+        radial-gradient(circle at 10% 20%, rgba(94, 68, 35, 0.25) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(190, 136, 18, 0.12) 0%, transparent 40%);
 }
 
 a { text-decoration: none; color: inherit; }
@@ -49,13 +49,13 @@ header {
     display: flex; justify-content: center; padding: 0 20px;
 }
 .nav-container {
-    background: rgba(10, 6, 5, 0.85);
+    background: rgba(30, 10, 18, 0.8);
     backdrop-filter: blur(16px);
     border: 1px solid var(--border-color);
     padding: 12px 28px;
     border-radius: 999px;
     display: flex; align-items: center; gap: 40px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 20px var(--crimson-glow);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px var(--crimson-glow);
 }
 .nav-logo { font-weight: 700; font-size: 1.1rem; color: var(--crimson-light); }
 .nav-links { display: flex; gap: 22px; }
@@ -79,7 +79,7 @@ header {
 }
 .badge {
     display: inline-flex; align-items: center; gap: 8px;
-    background: rgba(61, 33, 26, 0.5); border: 1px solid var(--border-color);
+    background: rgba(94, 35, 53, 0.4); border: 1px solid var(--border-color);
     padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; color: var(--crimson-light);
     margin-bottom: 20px; animation: pulseGlow 3s infinite alternate;
 }
@@ -95,21 +95,21 @@ header {
 }
 .btn-primary {
     background: linear-gradient(135deg, var(--crimson), var(--maron-khfif));
-    color: white; border: 1px solid rgba(240, 220, 176, 0.2);
+    color: white; border: 1px solid rgba(253, 247, 164, 0.2);
     box-shadow: 0 4px 20px var(--crimson-glow);
 }
-.btn-primary:hover { transform: translateY(-3px); box-shadow: 0 6px 25px rgba(212, 165, 90, 0.4); }
+.btn-primary:hover { transform: translateY(-3px); box-shadow: 0 6px 25px rgba(190, 124, 18, 0.5); }
 .btn-outline {
     background: transparent; color: var(--text-main);
     border: 1px solid var(--border-color);
 }
-.btn-outline:hover { border-color: var(--crimson); background: rgba(61, 33, 26, 0.35); }
+.btn-outline:hover { border-color: var(--crimson); background: rgba(159, 141, 102, 0.3); }
 
 /* Hero Card */
 .hero-card {
     background: var(--bg-card); border: 1px solid var(--border-color);
     border-radius: 24px; padding: 30px; text-align: center;
-    backdrop-filter: blur(12px); box-shadow: 0 20px 40px rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(12px); box-shadow: 0 20px 40px rgba(203, 165, 112, 0.4);
     position: relative; overflow: hidden;
 }
 .hero-card::before {
@@ -142,100 +142,26 @@ section { padding: 100px 0; }
 }
 .service-card {
     background: var(--bg-card); border: 1px solid var(--border-color);
-    border-radius: 20px; padding: 36px 30px; transition: all 0.4s ease;
+    border-radius: 20px; padding: 40px 30px; transition: all 0.4s ease;
     backdrop-filter: blur(12px); position: relative; overflow: hidden;
 }
 .service-card:hover {
     transform: translateY(-8px); border-color: var(--border-hover);
-    background: var(--bg-card-hover); box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    background: var(--bg-card-hover); box-shadow: 0 15px 35px rgba(155, 132, 78, 0.3);
 }
-.service-card-head { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 24px; }
-.service-index { font-size: 0.8rem; color: var(--text-muted); font-weight: 600; letter-spacing: 0.5px; }
 .service-icon {
-    font-size: 1.7rem; width: 54px; height: 54px; border-radius: 14px;
-    background: rgba(61, 33, 26, 0.6); border: 1px solid var(--border-color);
-    display: flex; align-items: center; justify-content: center;
-    color: var(--crimson-light); flex-shrink: 0;
+    font-size: 2rem; width: 60px; height: 60px; border-radius: 16px;
+    background: rgba(94, 72, 35, 0.5); border: 1px solid var(--border-color);
+    display: flex; align-items: center; justify-content: center; margin-bottom: 24px;
+    color: var(--crimson-light);
 }
-.service-card h3 { font-size: 1.25rem; margin-bottom: 12px; font-weight: 700; }
-.service-card p { color: var(--text-muted); font-size: 0.92rem; margin-bottom: 22px; line-height: 1.55; }
-.service-features { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
+.service-card h3 { font-size: 1.3rem; margin-bottom: 15px; font-weight: 600; }
+.service-card p { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 20px; line-height: 1.5; }
+.service-features { display: flex; flex-wrap: wrap; gap: 8px; }
 .service-features span {
-    background: rgba(212, 165, 90, 0.15); border: 1px solid rgba(212, 165, 90, 0.3);
+    background: rgba(228, 220, 148, 0.33); border: 1px solid rgba(200, 183, 132, 0.36);
     padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; color: var(--text-muted);
 }
-.service-link {
-    display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; font-weight: 700;
-    color: var(--crimson-light); transition: color 0.25s ease, gap 0.25s ease;
-}
-.service-link:hover { color: #fff; text-decoration: underline; gap: 10px; }
-.service-link { cursor: pointer; background: none; border: none; font-family: inherit; }
-
-/* Service Details Page (overlay) */
-.service-modal {
-    position: fixed; inset: 0; z-index: 2000; overflow-y: auto;
-    opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s ease;
-    background: var(--bg-main);
-    background-image:
-        radial-gradient(circle at 10% 15%, rgba(138, 74, 31, 0.3) 0%, transparent 45%),
-        radial-gradient(circle at 90% 85%, rgba(212, 165, 90, 0.15) 0%, transparent 45%);
-}
-.service-modal.open { opacity: 1; visibility: visible; }
-.service-modal-overlay { display: none; }
-.service-modal-panel {
-    position: relative; width: 100%; max-width: 1200px; margin: 0 auto;
-    padding: 70px 40px 100px;
-    transform: translateY(14px); transition: transform 0.4s cubic-bezier(.16,.84,.44,1);
-}
-.service-modal.open .service-modal-panel { transform: translateY(0); }
-.service-modal-back {
-    display: inline-flex; align-items: center; gap: 8px; background: none; border: none; cursor: pointer;
-    color: var(--crimson-light); font-weight: 700; font-size: 0.95rem; font-family: inherit;
-    margin-bottom: 40px; padding: 0;
-}
-.service-modal-back:hover { text-decoration: underline; }
-.service-modal-close {
-    position: fixed; top: 24px; right: 24px; width: 40px; height: 40px; border-radius: 50%;
-    background: rgba(20, 12, 9, 0.85); border: 1px solid var(--border-color); color: var(--text-main);
-    font-size: 1.3rem; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center;
-    transition: all 0.25s ease; z-index: 5; backdrop-filter: blur(8px);
-}
-.service-modal-close:hover { background: var(--crimson); border-color: var(--crimson); }
-.service-modal-label {
-    font-size: 0.8rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
-    color: var(--crimson-light); margin-bottom: 10px;
-}
-.service-modal-panel h2 { font-size: clamp(2rem, 4.5vw, 3.2rem); font-weight: 700; margin-bottom: 44px; }
-.service-modal-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
-.service-detail-card {
-    background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 18px;
-    padding: 28px; display: flex; flex-direction: column;
-}
-.service-detail-head { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 22px; }
-.service-detail-icon {
-    width: 48px; height: 48px; border-radius: 12px; background: rgba(61, 33, 26, 0.6);
-    border: 1px solid var(--border-color); color: var(--crimson-light);
-    display: flex; align-items: center; justify-content: center; font-size: 1.25rem;
-}
-.service-detail-index { font-size: 0.78rem; color: var(--text-muted); font-weight: 600; }
-.service-detail-card h4 { font-size: 1.1rem; font-weight: 700; margin-bottom: 12px; }
-.service-detail-card p { color: var(--text-muted); font-size: 0.9rem; line-height: 1.55; margin-bottom: 22px; flex-grow: 1; }
-.service-detail-links { display: flex; gap: 10px; flex-wrap: wrap; }
-.service-detail-links a {
-    display: inline-flex; align-items: center; gap: 6px; font-size: 0.82rem; font-weight: 600;
-    padding: 9px 16px; border-radius: 20px; border: 1px solid var(--border-color);
-    color: var(--text-main); background: rgba(61, 33, 26, 0.4); transition: all 0.25s ease;
-}
-.service-detail-links a:hover { border-color: var(--border-hover); background: var(--bg-card-hover); }
-.service-detail-links a.primary {
-    background: var(--crimson); border-color: var(--crimson); color: #fff;
-}
-.service-detail-links a.primary:hover { background: var(--maron-khfif); }
-
-@media(max-width: 640px) {
-    .service-modal-panel { padding: 60px 22px 80px; }
-}
-
 
 /* Projects Grid */
 .projects-grid {
@@ -248,7 +174,7 @@ section { padding: 100px 0; }
 }
 .project-card:hover {
     transform: translateY(-8px); border-color: var(--border-hover);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.55);
+    box-shadow: 0 20px 40px rgba(94, 35, 53, 0.35);
 }
 .project-img { height: 220px; overflow: hidden; position: relative; }
 .project-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
@@ -260,23 +186,14 @@ section { padding: 100px 0; }
 .project-links { display: flex; gap: 12px; }
 .project-btn {
     padding: 8px 16px; border-radius: 20px; font-size: 0.85rem; font-weight: 500;
-    background: rgba(61, 33, 26, 0.5); border: 1px solid var(--border-color);
+    background: rgba(94, 35, 53, 0.4); border: 1px solid var(--border-color);
     color: var(--text-main); transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 6px;
 }
 .project-btn:hover { background: var(--crimson); border-color: var(--crimson); color: white; }
 
 /* About Section */
-.about-grid { display: grid; grid-template-columns: 0.65fr 1fr 0.75fr; gap: 40px; align-items: start; }
-.about-photo { display: flex; justify-content: center; }
-.about-photo-wrapper {
-    width: 100%; max-width: 260px; aspect-ratio: 3 / 4; border-radius: 22px;
-    overflow: hidden; border: 2px solid var(--crimson);
-    box-shadow: 0 0 30px var(--crimson-glow), 0 20px 40px rgba(0, 0, 0, 0.5);
-    position: sticky; top: 120px;
-}
-.about-photo-wrapper img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
 .about-text p { color: var(--text-muted); font-size: 1rem; line-height: 1.7; margin-bottom: 20px; }
-.about-stats { display: grid; grid-template-columns: 1fr; gap: 16px; }
 .formation-card {
     display: flex; flex-wrap: wrap; gap: 10px 28px; align-items: baseline;
     background: var(--bg-card); border: 1px solid var(--border-color);
@@ -284,7 +201,7 @@ section { padding: 100px 0; }
 }
 .formation-card div { font-size: 0.85rem; color: var(--text-muted); }
 .formation-card strong { display: block; color: var(--crimson-light); font-size: 0.95rem; margin-bottom: 2px; font-weight: 600; }
-
+.about-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 30px; }
 .stat-box {
     background: var(--bg-card); border: 1px solid var(--border-color);
     padding: 20px; border-radius: 16px; text-align: center;
@@ -295,7 +212,6 @@ section { padding: 100px 0; }
 
 @media(max-width: 900px) {
     .about-grid { grid-template-columns: 1fr; }
-    .about-photo-wrapper { position: static; max-width: 220px; }
 }
 
 /* Modules & Ateliers */
@@ -309,7 +225,7 @@ section { padding: 100px 0; }
 .module-block-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 16px; margin-bottom: 6px; }
 .module-block-head .module-index {
     font-size: 0.8rem; color: var(--crimson-light); font-weight: 700; letter-spacing: 0.5px;
-    background: rgba(61, 33, 26, 0.6); border: 1px solid var(--border-color);
+    background: rgba(94, 72, 35, 0.5); border: 1px solid var(--border-color);
     padding: 4px 12px; border-radius: 20px;
 }
 .module-block-head h3 { font-size: 1.3rem; font-weight: 700; }
@@ -337,7 +253,7 @@ section { padding: 100px 0; }
 .seances-row::-webkit-scrollbar-thumb { background: var(--border-hover); border-radius: 6px; }
 .seance-card {
     scroll-snap-align: start; flex: 0 0 220px;
-    background: linear-gradient(160deg, rgba(212, 165, 90, 0.12), rgba(61, 33, 26, 0.35));
+    background: linear-gradient(160deg, rgba(253, 229, 164, 0.18), rgba(94, 80, 35, 0.28));
     border: 1px solid var(--border-color); border-radius: 16px;
     padding: 18px 16px; text-align: center; transition: transform 0.3s ease, border-color 0.3s ease;
 }
@@ -369,7 +285,7 @@ section { padding: 100px 0; }
 .form-group { margin-bottom: 20px; }
 .form-group label { display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px; }
 .form-control {
-    width: 100%; background: rgba(20, 12, 9, 0.85); border: 1px solid var(--border-color);
+    width: 100%; background: rgb(188, 178, 145); border: 1px solid var(--border-color);
     padding: 14px 18px; border-radius: 12px; color: var(--text-main); font-family: inherit;
     font-size: 0.95rem; transition: all 0.3s ease;
 }
@@ -379,7 +295,7 @@ textarea.form-control { resize: vertical; min-height: 120px; }
 
 .form-msg { padding: 12px; border-radius: 8px; margin-bottom: 20px; font-size: 0.9rem; }
 .form-msg.success { background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); color: #34d399; }
-.form-msg.error { background: rgba(190, 60, 30, 0.1); border: 1px solid rgba(190, 60, 30, 0.3); color: #fda4af; }
+.form-msg.error { background: rgba(190, 18, 60, 0.1); border: 1px solid rgba(190, 18, 60, 0.3); color: #fda4af; }
 
 @media(max-width: 768px) {
     .contact-grid { grid-template-columns: 1fr; }
@@ -406,92 +322,24 @@ footer {
 }
 .reveal.active { opacity: 1; transform: translateY(0); }
 
-/* ===== Preloader / Welcome splash ===== */
+/* ===== Preloader ===== */
 #loader {
     position: fixed; inset: 0; z-index: 9999; background: var(--bg-main);
-    display: flex; align-items: center; justify-content: center; padding: 24px;
-    background-image:
-        radial-gradient(circle at 15% 25%, rgba(138, 74, 31, 0.35) 0%, transparent 45%),
-        radial-gradient(circle at 85% 75%, rgba(212, 165, 90, 0.18) 0%, transparent 45%);
+    display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 16px;
     transition: opacity 0.6s ease, visibility 0.6s ease;
 }
 #loader.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
-
-.intro-shell {
-    width: 100%; max-width: 980px;
-    background: var(--bg-card); border: 1px solid var(--border-color);
-    border-radius: 28px; padding: 48px; backdrop-filter: blur(16px);
-    display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 40px; align-items: center;
-    position: relative; overflow: hidden;
-    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.6), 0 0 60px var(--crimson-glow);
-    opacity: 0; transform: translateY(16px) scale(0.98);
-    animation: introShellIn 0.7s cubic-bezier(.16,.84,.44,1) 0.15s forwards;
+.loader-mark {
+    font-size: 1.4rem; font-weight: 700; color: var(--crimson-light); letter-spacing: 2px;
+    opacity: 0; animation: loaderPulse 1.4s ease-in-out infinite;
 }
-.intro-shell::before {
-    content: ''; position: absolute; top: -60%; left: -30%; width: 200%; height: 200%;
-    background: radial-gradient(circle, var(--crimson-glow) 0%, transparent 65%);
-    opacity: 0.35; z-index: 0; animation: rotateBg 14s linear infinite;
+.loader-bar { width: 160px; height: 2px; background: var(--border-color); border-radius: 2px; overflow: hidden; }
+.loader-bar::after {
+    content: ''; display: block; height: 100%; width: 40%; background: var(--crimson);
+    animation: loaderSlide 1.1s ease-in-out infinite;
 }
-.intro-shell > * { position: relative; z-index: 1; }
-@keyframes introShellIn { to { opacity: 1; transform: translateY(0) scale(1); } }
-
-.intro-badges { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 26px; }
-.intro-badge {
-    display: inline-flex; align-items: center; gap: 7px;
-    font-size: 0.72rem; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase;
-    color: var(--crimson-light); background: rgba(61, 33, 26, 0.55);
-    border: 1px solid var(--border-color); padding: 6px 14px; border-radius: 20px;
-}
-.intro-badge .dot {
-    width: 6px; height: 6px; border-radius: 50%; background: #7be08a;
-    box-shadow: 0 0 8px #7be08a; display: inline-block; animation: dotBlink 1.8s ease-in-out infinite;
-}
-@keyframes dotBlink { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
-
-.intro-title { font-size: clamp(1.9rem, 4vw, 2.9rem); font-weight: 700; line-height: 1.15; margin-bottom: 16px; }
-.intro-title span { color: var(--crimson-light); text-shadow: 0 0 20px var(--crimson-glow); }
-.intro-text { color: var(--text-muted); font-size: 0.98rem; line-height: 1.6; margin-bottom: 26px; max-width: 460px; }
-
-.intro-live-label {
-    font-size: 0.72rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
-    color: var(--crimson-light); margin-bottom: 12px;
-}
-.intro-pills { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; }
-.intro-pill {
-    font-size: 0.8rem; font-weight: 600; color: var(--text-main);
-    background: rgba(61, 33, 26, 0.55); border: 1px solid var(--border-color);
-    padding: 8px 16px; border-radius: 20px; display: inline-flex; align-items: center; gap: 6px;
-}
-
-.intro-panel {
-    background: rgba(5, 3, 2, 0.75); border: 1px solid var(--border-color);
-    border-radius: 22px; padding: 24px; min-height: 300px;
-    display: flex; flex-direction: column; justify-content: space-between;
-}
-.intro-panel-top { display: flex; justify-content: space-between; font-size: 0.68rem; letter-spacing: 1px; color: var(--text-muted); text-transform: uppercase; }
-.intro-panel-top .online { color: #7be08a; font-weight: 700; }
-.intro-orb-wrap { flex: 1; display: flex; align-items: center; justify-content: center; }
-.intro-orb {
-    width: 160px; height: 160px; border-radius: 50%;
-    background: radial-gradient(circle at 35% 30%, rgba(240, 220, 176, 0.4), var(--crimson) 45%, var(--maron-khfif) 85%);
-    box-shadow: 0 0 55px var(--crimson-glow), inset 0 0 30px rgba(0, 0, 0, 0.45);
-    display: flex; align-items: center; justify-content: center;
-    font-weight: 700; font-size: 0.95rem; letter-spacing: 1px; color: #fff;
-    animation: orbPulse 2.6s ease-in-out infinite;
-}
-@keyframes orbPulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.06); } }
-.intro-panel-bottom { display: flex; justify-content: space-between; gap: 16px; }
-.intro-stat strong { display: block; font-size: 1.3rem; color: var(--crimson-light); font-weight: 700; }
-.intro-stat span { font-size: 0.68rem; color: var(--text-muted); letter-spacing: 0.5px; text-transform: uppercase; }
-
-@media(max-width: 860px) {
-    .intro-shell { grid-template-columns: 1fr; padding: 32px; }
-    .intro-text { max-width: none; }
-    .intro-panel { min-height: 220px; }
-}
-@media(max-width: 480px) {
-    .intro-shell { padding: 24px; border-radius: 20px; }
-}
+@keyframes loaderPulse { 0%,100% { opacity: 0.4; } 50% { opacity: 1; } }
+@keyframes loaderSlide { 0% { transform: translateX(-100%); } 100% { transform: translateX(350%); } }
 
 /* ===== Scroll progress bar ===== */
 #scroll-progress {
@@ -523,7 +371,7 @@ footer {
 .badge { position: relative; overflow: hidden; }
 .badge::after {
     content: ''; position: absolute; top: 0; left: -60%; width: 40%; height: 100%;
-    background: linear-gradient(120deg, transparent, rgba(255,255,255,0.18), transparent);
+    background: linear-gradient(120deg, transparent, rgba(255,255,255,0.25), transparent);
     animation: shimmer 3.2s ease-in-out infinite;
 }
 @keyframes shimmer { 0% { left: -60%; } 60%,100% { left: 130%; } }
@@ -552,7 +400,7 @@ footer {
 .btn, .project-btn { position: relative; overflow: hidden; }
 .ripple {
     position: absolute; border-radius: 50%; transform: scale(0);
-    background: rgba(255,255,255,0.35); animation: rippleAnim 0.65s ease-out;
+    background: rgba(255,255,255,0.45); animation: rippleAnim 0.65s ease-out;
     pointer-events: none;
 }
 @keyframes rippleAnim { to { transform: scale(3); opacity: 0; } }
@@ -583,35 +431,10 @@ footer {
 </head>
 <body>
 
-<!-- Preloader / Welcome splash -->
+<!-- Preloader -->
 <div id="loader">
-    <div class="intro-shell">
-        <div class="intro-left">
-            <div class="intro-badges">
-                <span class="intro-badge"><span class="dot"></span>Système prêt</span>
-                <span class="intro-badge">Portfolio 2026</span>
-                <span class="intro-badge">Interface en chargement</span>
-            </div>
-            <h1 class="intro-title">Bienvenue sur mon<br><span>portfolio</span></h1>
-            <p class="intro-text">Je suis Yasmina Aouladhaj, étudiante en Développement Digital Full Stack. Découvrez mon parcours, mes modules de formation et mes projets.</p>
-            <div class="intro-live-label">● Statut en direct</div>
-            <div class="intro-pills">
-                <span class="intro-pill">💻 Front-End</span>
-                <span class="intro-pill">🗄️ Back-End</span>
-                <span class="intro-pill">☁️ Cloud</span>
-                <span class="intro-pill">🎨 UI/UX</span>
-            </div>
-            <button id="intro-enter" type="button" class="btn btn-primary"><span>Entrer sur le site</span></button>
-        </div>
-        <div class="intro-panel">
-            <div class="intro-panel-top"><span>Profil</span><span class="online">● En ligne</span></div>
-            <div class="intro-orb-wrap"><div class="intro-orb">YASMINA</div></div>
-            <div class="intro-panel-bottom">
-                <div class="intro-stat"><strong>07</strong><span>Modules</span></div>
-                <div class="intro-stat"><strong>2026</strong><span>Promotion</span></div>
-            </div>
-        </div>
-    </div>
+    <div class="loader-mark">Yasmina Aouladhaj</div>
+    <div class="loader-bar"></div>
 </div>
 
 <!-- Scroll progress -->
@@ -652,7 +475,7 @@ footer {
         </div>
         <div class="hero-card reveal">
             <div class="avatar-wrapper">
-                <img src="/images/me2.png" alt="Yasmina Aouladhaj">
+                <img src="/images/me3.jpeg" alt="Yasmina Aouladhaj">
             </div>
             <h3 style="margin-bottom: 8px;">Yasmina Aouladhaj</h3>
             <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0;">Maroc</p>
@@ -667,11 +490,6 @@ footer {
         <p>Faisons connaissance</p>
     </div>
     <div class="about-grid">
-        <div class="about-photo reveal">
-            <div class="about-photo-wrapper">
-                                <img src="/images/me3.jpeg" alt="Yasmina Aouladhaj">
-            </div>
-        </div>
         <div class="about-text reveal">
             <div class="formation-card">
                 <div><strong>Full Stack Développement Digital</strong>2ème année</div>
@@ -1415,10 +1233,7 @@ footer {
     </div>
     <div class="services-grid">
         <div class="service-card reveal">
-            <div class="service-card-head">
-                <div class="service-icon">&lt;/&gt;</div>
-                <span class="service-index">01</span>
-            </div>
+            <div class="service-icon">&lt;/&gt;</div>
             <h3>Développement Web</h3>
             <p>Je crée des sites web modernes et responsives en utilisant les dernières technologies et les meilleures pratiques.</p>
             <div class="service-features">
@@ -1426,13 +1241,9 @@ footer {
                 <span>Performance Optimisée</span>
                 <span>Optimisé SEO</span>
             </div>
-            <button type="button" class="service-link" data-service="web">Voir Les Détails →</button>
         </div>
         <div class="service-card reveal">
-            <div class="service-card-head">
-                <div class="service-icon">📱</div>
-                <span class="service-index">02</span>
-            </div>
+            <div class="service-icon">📱</div>
             <h3>Développement Mobile</h3>
             <p>Création d'applications mobiles multiplateformes fonctionnant aussi bien sur iOS que sur Android.</p>
             <div class="service-features">
@@ -1440,13 +1251,9 @@ footer {
                 <span>Performance Native</span>
                 <span>Convivial</span>
             </div>
-            <button type="button" class="service-link" data-service="mobile">Voir Les Détails →</button>
         </div>
         <div class="service-card reveal">
-            <div class="service-card-head">
-                <div class="service-icon">🎨</div>
-                <span class="service-index">03</span>
-            </div>
+            <div class="service-icon">🎨</div>
             <h3>UI/UX Design</h3>
             <p>Conception d'interfaces intuitives et esthétiques offrant une expérience utilisateur exceptionnelle.</p>
             <div class="service-features">
@@ -1454,22 +1261,9 @@ footer {
                 <span>Design Moderne</span>
                 <span>Accessibilité</span>
             </div>
-            <button type="button" class="service-link" data-service="design">Voir Les Détails →</button>
         </div>
     </div>
 </section>
-
-<!-- Service Details Modal -->
-<div id="service-modal" class="service-modal" aria-hidden="true">
-    <div class="service-modal-overlay" data-close-modal></div>
-    <div class="service-modal-panel" role="dialog" aria-modal="true">
-        <button type="button" class="service-modal-back" data-close-modal>&larr; Retour au Portfolio</button>
-        <button type="button" class="service-modal-close" data-close-modal aria-label="Fermer">&times;</button>
-        <div class="service-modal-label" id="service-modal-label">Service</div>
-        <h2 id="service-modal-title">Titre du service</h2>
-        <div class="service-modal-grid" id="service-modal-grid"></div>
-    </div>
-</div>
 
 <!-- Contact Section -->
 <section id="contact" class="container">
@@ -1542,91 +1336,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })();
 
-    /* ---------- Service details modal ---------- */
-    const servicesData = {
-        web: {
-            label: 'Service 01',
-            title: 'Développement Web',
-            items: [
-                { icon: '</>', title: 'Site E-Commerce', desc: "Boutique en ligne avec filtrage des produits, panier et paiement.", github: '#', demo: '#' },
-                { icon: '📝', title: 'Site de Blog', desc: "Plateforme de blog épurée avec support du markdown.", github: '#', demo: '#' },
-                { icon: '✅', title: 'Gestionnaire de Tâches', desc: "Application CRUD de suivi de tâches, interface épurée.", github: '#', demo: '#' }
-            ]
-        },
-        mobile: {
-            label: 'Service 02',
-            title: 'Développement Mobile',
-            items: [
-                { icon: '🌦️', title: 'Application Météo', desc: "App responsive affichant la météo en temps réel via une API.", github: '#', demo: '#' },
-                { icon: '📋', title: 'App de Suivi', desc: "Prototype mobile pour la gestion de tâches au quotidien.", github: '#', demo: '#' },
-                { icon: '🔔', title: 'App de Notifications', desc: "Interface mobile légère, pensée pour iOS et Android.", github: '#', demo: '#' }
-            ]
-        },
-        design: {
-            label: 'Service 03',
-            title: 'UI/UX Design',
-            items: [
-                { icon: '🖼️', title: 'Site Portfolio', desc: "Portfolio personnel pour présenter mes projets de design.", github: '#', demo: '#' },
-                { icon: '🎮', title: 'Landing Page Gaming', desc: "Page d'accueil avec animations et effets de parallaxe.", github: '#', demo: '#' },
-                { icon: '🧩', title: 'Wireframes & Maquettes', desc: "Maquettage et prototypes interactifs réalisés sous Figma.", github: '#', demo: '#' }
-            ]
-        }
-    };
-
-    const serviceModal = document.getElementById('service-modal');
-    const serviceModalLabel = document.getElementById('service-modal-label');
-    const serviceModalTitle = document.getElementById('service-modal-title');
-    const serviceModalGrid = document.getElementById('service-modal-grid');
-
-    const openServiceModal = (key) => {
-        const data = servicesData[key];
-        if (!data || !serviceModal) return;
-        serviceModalLabel.textContent = data.label;
-        serviceModalTitle.textContent = data.title;
-        serviceModalGrid.innerHTML = data.items.map((item, i) => `
-            <div class="service-detail-card">
-                <div class="service-detail-head">
-                    <div class="service-detail-icon">${item.icon}</div>
-                    <span class="service-detail-index">${String(i + 1).padStart(2, '0')}</span>
-                </div>
-                <h4>${item.title}</h4>
-                <p>${item.desc}</p>
-                <div class="service-detail-links">
-                    <a href="${item.github}">GitHub</a>
-                    <a href="${item.demo}" class="primary">Démo</a>
-                </div>
-            </div>
-        `).join('');
-        serviceModal.classList.add('open');
-        serviceModal.scrollTop = 0;
-        serviceModal.setAttribute('aria-hidden', 'false');
-        document.body.style.overflow = 'hidden';
-    };
-
-    const closeServiceModal = () => {
-        if (!serviceModal) return;
-        serviceModal.classList.remove('open');
-        serviceModal.setAttribute('aria-hidden', 'true');
-        document.body.style.overflow = '';
-    };
-
-    document.querySelectorAll('.service-link[data-service]').forEach(btn => {
-        btn.addEventListener('click', () => openServiceModal(btn.dataset.service));
-    });
-    document.querySelectorAll('[data-close-modal]').forEach(el => {
-        el.addEventListener('click', closeServiceModal);
-    });
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') closeServiceModal();
-    });
-
-    /* ---------- Preloader / Welcome splash ---------- */
+    /* ---------- Preloader ---------- */
     const loader = document.getElementById('loader');
-    const introEnterBtn = document.getElementById('intro-enter');
-    const hideLoader = () => { loader && loader.classList.add('hidden'); };
-    if (introEnterBtn) introEnterBtn.addEventListener('click', hideLoader);
-    // auto-dismiss fallback if the user doesn't click (gives time to read the splash)
-    setTimeout(hideLoader, 5000);
+    window.addEventListener('load', () => {
+        setTimeout(() => loader && loader.classList.add('hidden'), 350);
+    });
+    // safety fallback in case 'load' fires oddly
+    setTimeout(() => loader && loader.classList.add('hidden'), 2500);
 
     /* ---------- Reveal on scroll + counters + stagger ---------- */
     const counterEls = document.querySelectorAll('.stat-num');
