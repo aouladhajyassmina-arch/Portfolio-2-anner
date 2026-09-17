@@ -669,7 +669,7 @@ footer {
     <div class="about-grid">
         <div class="about-photo reveal">
             <div class="about-photo-wrapper">
-                <img src="/images/me3.jpeg" alt="Yasmina Aouladhaj">
+                <img src="/images/me4.jpeg" alt="Yasmina Aouladhaj">
             </div>
         </div>
         <div class="about-text reveal">
