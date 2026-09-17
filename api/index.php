@@ -736,6 +736,12 @@ footer {
                         <a href="Untitled2.mdj">Voir exercice 3</a>
                         
                     </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 1</h4>
+                        <a href="les 5 diagrammes.pdf">les diagrammes 5</a>
+                        
+                    </div>
+                    
                 </div>
             </div>
             <div class="atelier-block">
