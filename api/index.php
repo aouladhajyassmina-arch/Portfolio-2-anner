@@ -717,7 +717,7 @@ footer {
 
             <div class="atelier-block">
                 <div class="atelier-head">
-                    <span class="atelier-pill">Atelier 1</span>
+                    <span class="atelier-pill">UML</span>
                     <span class="atelier-titre">Analyse des besoins et cahier des charges</span>
                 </div>
                 <div class="seances-row">
@@ -733,30 +733,31 @@ footer {
                     </div>
                     <div class="seance-card">
                         <h4>Séance atelier 1</h4>
-                        <a href="Untitled2.mdj">Voir exercice 3</a>
+                        <a href="les 5 diagrammes.pdf">Voir exercice 3</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
-                        <a href="les 5 diagrammes.pdf">les diagrammes 5</a>
-                        
-                    </div>
+                    
                     
                 </div>
             </div>
             <div class="atelier-block">
                 <div class="atelier-head">
-                    <span class="atelier-pill">Atelier 2</span>
+                    <span class="atelier-pill">FIGMA</span>
                     <span class="atelier-titre">Maquettage et wireframes</span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance atelier 2</h4>
+                        <h4>Séance atelier 1</h4>
                         <a href="Untitled3.mdj">Voir exercice 1</a>
                         
                     </div>
                     <div class="seance-card">
                         <h4>Séance atelier 2</h4>
+                        <a href="Untitled4.mdj">Voir exercice 2</a>
+                        
+                    </div>
+                     <div class="seance-card">
+                        <h4>Séance atelier 3</h4>
                         <a href="Untitled4.mdj">Voir exercice 2</a>
                         
                     </div>
