@@ -728,7 +728,7 @@ footer {
                     </div>
                     <div class="seance-card">
                         <h4>Séance atelier 1</h4>
-                        <a href="Untitled1.mdj">Voir exercice 2</a>
+                        <a href="diagramme.mdj">Voir exercice 2</a>
                         
                     </div>
                     <div class="seance-card">
