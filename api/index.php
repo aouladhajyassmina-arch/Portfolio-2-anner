@@ -748,12 +748,12 @@ footer {
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance atelier 1</h4>
-                        <a href="Untitled3.mdj">Voir exercice 1</a>
+                        <a href="https://www.figma.com/design/eiKXZOcHahiGXCbwnF3Lkg/Untitled?node-id=0-1&p=f&m=draw">Voir exercice 1</a>
                         
                     </div>
                     <div class="seance-card">
                         <h4>Séance atelier 2</h4>
-                        <a href="Untitled4.mdj">Voir exercice 2</a>
+                        <a href="https://www.figma.com/design/mjI3Qbk04FZco0US6LhViG/Untitled?node-id=0-1&p=f&m=draw">Voir exercice 2</a>
                         
                     </div>
                      <div class="seance-card">
