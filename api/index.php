@@ -802,7 +802,7 @@ footer {
                      <div class="seance-card">
                         <h4>Séance atelier 1</h4>
                         <a href="/images/WhatsApp Image 2026-09-30 at 10.51.24 (1).jpeg">Voir exercice 3</a>
-                        <a href="/exercice3logicial.png">Voir exercice 3</a>
+                        <a href="/images/exercice3logicial.png">Voir exercice 3</a>
                         
                         
                     </div>
