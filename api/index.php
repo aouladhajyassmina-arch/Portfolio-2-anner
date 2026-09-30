@@ -799,6 +799,12 @@ footer {
                         <a href="/images/exercice2logicial.jpeg">Voir exercice 2</a>
                         
                     </div>
+                     <div class="seance-card">
+                        <h4>Séance atelier 1</h4>
+                        <a href="/images/exercice3.jpeg">Voir exercice 3</a>
+                        
+                        
+                    </div>
                     </div>
                    
                 </div>
@@ -856,6 +862,7 @@ footer {
                         
                     </div>
                 </div>
+            </div>
             </div>
         </div>
         <div class="module-block reveal">
