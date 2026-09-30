@@ -758,7 +758,12 @@ footer {
                     </div>
                      <div class="seance-card">
                         <h4>Séance atelier 3</h4>
-                        <a href="Untitled4.mdj">Voir exercice 2</a>
+                        <a href="https://www.figma.com/design/Cpfx6ZxTT3m3TyJHB6fF5U/Untitled?node-id=0-1&p=f&t=mPR31LV2vIbfvexV-0">Voir exercice 3</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance creativ de moi</h4>
+                        <a href="https://www.figma.com/design/i6u5fa17ClAUn64O4nzBtD/Untitled?node-id=0-1&p=f&t=aJYYezUcLiRIBsZ1-0">Voir le design</a>
                         
                     </div>
                 </div>
@@ -812,7 +817,7 @@ footer {
             <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 1</span>
-                    <span class="atelier-titre">Fondamentaux de Scrum</span>
+                    <span class="exercice1.jpeg">Fondamentaux de Scrum</span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
@@ -899,12 +904,14 @@ footer {
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance atelier 1</h4>
-                        <a href="#">Voir exercice 1</a>
+                        <a href="/images/exercice1.jpeg">Voir exercice 1</a>
+                        <a href="/images/exercice1logicial.jpeg">Voir exercice 1</a>
                         
                     </div>
                     <div class="seance-card">
                         <h4>Séance atelier 1</h4>
-                        <a href="#">Voir exercice 2</a>
+                        <a href="/images/exercice2.jpeg">Voir exercice 2</a>
+                        <a href="/images/exercice2logicial.jpeg">Voir exercice 2</a>
                         
                     </div>
                     <div class="seance-card">
