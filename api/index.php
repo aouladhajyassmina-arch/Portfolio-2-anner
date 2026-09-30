@@ -768,41 +768,8 @@ footer {
                     </div>
                 </div>
             </div>
-            <div class="atelier-block">
-                <div class="atelier-head">
-                    <span class="atelier-pill">Atelier 3</span>
-                    <span class="atelier-titre">Choix de la stack technique</span>
-                </div>
-                <div class="seances-row">
-                    <div class="seance-card">
-                        <h4>Séance atelier 3</h4>
-                        <a href="#">Voir exercice 1</a>
-                        
-                    </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 3</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="atelier-block">
-                <div class="atelier-head">
-                    <span class="atelier-pill">Atelier 4</span>
-                    <span class="atelier-titre">Planification du projet</span>
-                </div>
-                <div class="seances-row">
-                    <div class="seance-card">
-                        <h4>Séance atelier 4</h4>
-                        <a href="#">Voir exercice 1</a>
-                        
-                    </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 4</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
-                </div>
+           
+          
             </div>
         </div>
         <div class="module-block reveal">
@@ -833,11 +800,7 @@ footer {
                         
                     </div>
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
+                   
                 </div>
             </div>
             <div class="atelier-block">
