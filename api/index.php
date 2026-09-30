@@ -817,7 +817,17 @@ footer {
             <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 1</span>
-                    <span class="exercice1.jpeg">Fondamentaux de Scrum</span>
+                      <h4>Séance atelier 1</h4>
+                        <a href="/images/exercice1.jpeg">Voir exercice 1</a>
+                        <a href="/images/exercice1logicial.jpeg">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 1</h4>
+                        <a href="/images/Ecercice2.jpeg">Voir exercice 2</a>
+                        <a href="/images/exercice2logicial.jpeg">Voir exercice 2</a>
+                        
+                    </div>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
