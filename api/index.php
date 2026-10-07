@@ -818,7 +818,7 @@ footer {
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance atelier 2</h4>
-                        <a href="#">Voir exercice 1</a>
+                        <a href="Atwlier2agile.pdf">Voir exercice 1</a>
                         
                     </div>
                     <div class="seance-card">
