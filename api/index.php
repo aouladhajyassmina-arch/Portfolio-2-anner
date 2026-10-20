@@ -270,7 +270,7 @@
                     </div>
                     <div class="seance-card">
                         <h4>Séance atelier 3</h4>
-                        <a href="https://achito.vercel.app/">Voir exercice 2</a>
+                        <a href="https://achito.vercel.app/accueil.html#home">Voir exercice 2</a>
                         
                     </div>
                 </div>
@@ -295,9 +295,361 @@
             </div>
             </div>
         </div>
-       
-           
-             
+        <div class="module-block reveal">
+            <div class="module-block-head">
+                <span class="module-index">Module 3</span>
+                <h3>Gestion des données</h3>
+                <span class="module-duration">18h</span>
+            </div>
+            <div class="module-sub">MongoDB (NoSQL)</div>
+            <p class="module-desc">Concevoir et interroger une base de données NoSQL pour stocker les informations d’une application de façon flexible et performante.</p>
+
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 1</span>
+                    <span class="atelier-titre">Bases de données NoSQL</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance atelier 1</h4>
+                        <a href="/images/exercice1.jpeg">Voir exercice 1</a>
+                        <a href="/images/exercice1logicial.jpeg">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 1</h4>
+                        <a href="/images/Exercice2.jpeg">Voir exercice 2</a>
+                        <a href="/images/exercice2logicial.jpeg">Voir exercice 2</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 1</h4>
+                        <a href="#">Voir exercice 3</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 2</span>
+                    <span class="atelier-titre">Modélisation de schémas</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance atelier 2</h4>
+                        <a href="#">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 2</h4>
+                        <a href="#">Voir exercice 2</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 3</span>
+                    <span class="atelier-titre">Requêtes et agrégations avancées</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance atelier 3</h4>
+                        <a href="#">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 3</h4>
+                        <a href="#">Voir exercice 2</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 3</h4>
+                        <a href="#">Voir exercice 3</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 4</span>
+                    <span class="atelier-titre">CRUD avec Mongoose</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance atelier 4</h4>
+                        <a href="#">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 4</h4>
+                        <a href="#">Voir exercice 2</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="module-block reveal">
+            <div class="module-block-head">
+                <span class="module-index">Module 4</span>
+                <h3>Développement Front-End</h3>
+                <span class="module-duration">24h</span>
+            </div>
+            <div class="module-sub">React.js</div>
+            <p class="module-desc">Construire des interfaces modernes, réactives et modulaires avec React, en connectant les composants aux données de l’application.</p>
+
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 1</span>
+                    <span class="atelier-titre">Composants, props et state</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance atelier 1</h4>
+                        <a href="#">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 1</h4>
+                        <a href="#">Voir exercice 2</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 1</h4>
+                        <a href="#">Voir exercice 3</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 2</span>
+                    <span class="atelier-titre">Hooks (useState, useEffect)</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance atelier 2</h4>
+                        <a href="#">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 2</h4>
+                        <a href="#">Voir exercice 2</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 3</span>
+                    <span class="atelier-titre">Routing avec React Router</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance atelier 3</h4>
+                        <a href="#">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 3</h4>
+                        <a href="#">Voir exercice 2</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 4</span>
+                    <span class="atelier-titre">Consommation d’API REST</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance atelier 4</h4>
+                        <a href="#">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 4</h4>
+                        <a href="#">Voir exercice 2</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="module-block reveal">
+            <div class="module-block-head">
+                <span class="module-index">Module 5</span>
+                <h3>Développement Back-End</h3>
+                <span class="module-duration">24h</span>
+            </div>
+            <div class="module-sub">Laravel</div>
+            <p class="module-desc">Développer la logique serveur, la base de données et les API d’une application avec Laravel, du modèle jusqu’à la route.</p>
+
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 1</span>
+                    <span class="atelier-titre">Introduction à Laravel (MVC)</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance atelier 1</h4>
+                        <a href="#">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 1</h4>
+                        <a href="#">Voir exercice 2</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 1</h4>
+                        <a href="#">Voir exercice 3</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 2</span>
+                    <span class="atelier-titre">Authentification et middleware</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance atelier 2</h4>
+                        <a href="#">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 2</h4>
+                        <a href="#">Voir exercice 2</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 3</span>
+                    <span class="atelier-titre">Routing, contrôleurs et Eloquent</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance atelier 3</h4>
+                        <a href="#">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 3</h4>
+                        <a href="#">Voir exercice 2</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 4</span>
+                    <span class="atelier-titre">Construction d’une API RESTful</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance atelier 4</h4>
+                        <a href="#">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 4</h4>
+                        <a href="#">Voir exercice 2</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="module-block reveal">
+            <div class="module-block-head">
+                <span class="module-index">Module 6</span>
+                <h3>Application Cloud</h3>
+                <span class="module-duration">15h</span>
+            </div>
+            <div class="module-sub">Déploiement &amp; Cloud</div>
+            <p class="module-desc">Déployer une application dans le cloud : conteneurisation, hébergement et automatisation de la mise en production.</p>
+
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 1</span>
+                    <span class="atelier-titre">Conteneurisation avec Docker</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance atelier 1</h4>
+                        <a href="#">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 1</h4>
+                        <a href="#">Voir exercice 2</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 1</h4>
+                        <a href="#">Voir exercice 3</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 2</span>
+                    <span class="atelier-titre">Déploiement sur un service cloud</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance atelier 2</h4>
+                        <a href="#">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 2</h4>
+                        <a href="#">Voir exercice 2</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 3</span>
+                    <span class="atelier-titre">Intégration et déploiement continus</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance atelier 3</h4>
+                        <a href="#">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 3</h4>
+                        <a href="#">Voir exercice 2</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 4</span>
+                    <span class="atelier-titre">Sécurité des applications</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance atelier 4</h4>
+                        <a href="#">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 4</h4>
+                        <a href="#">Voir exercice 2</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="module-block reveal">
             <div class="module-block-head">
                 <span class="module-index">Module 7</span>
