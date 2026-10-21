@@ -858,7 +858,7 @@ footer {
                 </div>
             </div>
              </div>
-            </div>
+            
              <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 5</span>
@@ -878,6 +878,7 @@ footer {
                 </div>
             </div>
              </div>
+            </div>
             </div>
         </div>
         <div class="module-block reveal">
