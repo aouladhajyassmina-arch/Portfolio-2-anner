@@ -857,7 +857,7 @@ footer {
                     </div>
                 </div>
             </div>
-             </div>
+            
             
              <div class="atelier-block">
                 <div class="atelier-head">
@@ -875,6 +875,7 @@ footer {
                         <a href="https://travaille-colaboratif-1i4v.vercel.app/#contact">Voir L'app</a>
                         
                     </div>
+                     </div>
                 </div>
             </div>
              </div>
