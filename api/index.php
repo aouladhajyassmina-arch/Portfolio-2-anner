@@ -837,14 +837,10 @@ footer {
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance atelier 3</h4>
-                        <a href="Acheto_Etapes.pdf">Voir exercice 1</a>
+                        <a href="Atelier3_Git_corrige_v2.pdf">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 3</h4>
-                        <a href="https://achito.vercel.app/accueil.html#home">Voir exercice 2</a>
-                        
-                    </div>
+                    
                 </div>
             </div>
             <div class="atelier-block">
@@ -855,12 +851,12 @@ footer {
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance atelier 4</h4>
-                        <a href="#">Voir exercice 1</a>
+                        <a href="Acheto_Etapes.pdf">Voir exercice 1</a>
                         
                     </div>
                     <div class="seance-card">
                         <h4>Séance atelier 4</h4>
-                        <a href="#">Voir exercice 2</a>
+                        <a href="https://achito.vercel.app/accueil.html#home">Voir exercice 2</a>
                         
                     </div>
                 </div>
