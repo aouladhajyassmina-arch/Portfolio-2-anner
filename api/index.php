@@ -852,7 +852,27 @@ footer {
                     </div>
                     <div class="seance-card">
                         <h4>Séance atelier 4</h4>
-                        <a href="https://achito.vercel.app/accueil.html#home">Voir exercice 2</a>
+                        <a href="https://achito.vercel.app/accueil.html#home">Voir L'app</a>
+                        
+                    </div>
+                </div>
+            </div>
+             </div>
+            </div>
+             <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 5</span>
+                    <span class="atelier-titre">Suivi avec un tableau Kanban</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance atelier 5</h4>
+                        <a href="Atelier5_Git_corrige_v1.pdf">Voir exercice 1</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 5</h4>
+                        <a href="https://travaille-colaboratif-1i4v.vercel.app/#contact">Voir L'app</a>
                         
                     </div>
                 </div>
