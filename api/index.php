@@ -810,7 +810,7 @@ footer {
                     </div>
                    
                 </div>
-            </div>
+            
             <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 2</span>
@@ -822,11 +822,7 @@ footer {
                         <a href="Atwlier2agile.pdf">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 2</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
+                   
                 </div>
             </div>
             <div class="atelier-block">
@@ -861,6 +857,7 @@ footer {
                     </div>
                 </div>
             </div>
+             </div>
             </div>
         </div>
         <div class="module-block reveal">
