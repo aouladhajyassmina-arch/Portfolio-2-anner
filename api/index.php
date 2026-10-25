@@ -10,18 +10,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
-    /* Palette : Noir + Marron / Crème */
-    --bg-main: #0b0908;
-    --bg-card: rgba(40, 22, 18, 0.45);
-    --bg-card-hover: rgba(58, 32, 24, 0.65);
-    --crimson: #8a4a1f;
-    --crimson-glow: rgba(212, 165, 90, 0.28);
-    --crimson-light: #f0dcb0;
-    --maron-khfif: #3d211a;
-    --text-main: #f9fafb;
-    --text-muted: #d8cdbe;
-    --border-color: rgba(212, 165, 90, 0.22);
-    --border-hover: rgba(212, 165, 90, 0.55);
+    /* Palette : Deep Burgundy + Mocha Cream + Cosmic Latte */
+    --bg-main: #16060b;
+    --bg-card: rgba(74, 15, 34, 0.45);
+    --bg-card-hover: rgba(98, 22, 46, 0.65);
+    --crimson: #7b1e3a;
+    --crimson-glow: rgba(201, 169, 138, 0.28);
+    --crimson-light: #dcc1a4;
+    --maron-khfif: #4a0f22;
+    --text-main: #fff8e7;
+    --text-muted: #d6c6ae;
+    --border-color: rgba(201, 169, 138, 0.22);
+    --border-hover: rgba(201, 169, 138, 0.55);
     --max-width: 1200px;
 }
 
