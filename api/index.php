@@ -842,7 +842,7 @@ footer {
             <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 4</span>
-                    <span class="atelier-titre">Suivi avec un tableau Kanban</span>
+                    <span class="atelier-titre"></span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
@@ -852,7 +852,7 @@ footer {
                     </div>
                     <div class="seance-card">
                         <h4>Séance atelier 4</h4>
-                        <a href="https://achito.vercel.app/accueil.html#home">Voir L'app</a>
+                        <a href="https://github.com/aouladhajyassmina-arch/Acheto">Voir Github</a>
                         
                     </div>
                 </div>
@@ -862,7 +862,7 @@ footer {
              <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 5</span>
-                    <span class="atelier-titre">Suivi avec un tableau Kanban</span>
+                    <span class="atelier-titre"></span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
@@ -872,7 +872,27 @@ footer {
                     </div>
                     <div class="seance-card">
                         <h4>Séance atelier 5</h4>
-                        <a href="https://travaille-colaboratif-1i4v.vercel.app/#contact">Voir L'app</a>
+                        <a href="https://github.com/aouladhajyassmina-arch/travaille-colaboratif">Voir Github</a>
+                        
+                    </div>
+                     </div>
+                </div>
+
+
+                 <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 6</span>
+                    <span class="atelier-titre"></span>
+                </div>
+                <div class="seances-row">
+                     <div class="seance-card">
+                        <h4>Séance atelier 6</h4>
+                        <a href="https://atelier6-stagiaires.vercel.app">Voir exercice</a>
+                        
+                    </div>
+                    <div class="seance-card">
+                        <h4>Séance atelier 6</h4>
+                        <a href="https://github.com/aouladhajyassmina-arch/atelier6-stagiaires">Voir Github</a>
                         
                     </div>
                      </div>
