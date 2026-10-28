@@ -852,7 +852,7 @@ footer {
                     </div>
                     <div class="seance-card">
                         <h4>Séance atelier 4</h4>
-                        <a href="https://github.com/aouladhajyassmina-arch/Acheto">Voir Github</a>
+                        <a href="https://github.com/norahamioui761-pixel/acheto">Voir Github</a>
                         
                     </div>
                 </div>
