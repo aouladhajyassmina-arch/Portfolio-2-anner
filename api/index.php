@@ -898,7 +898,7 @@ footer {
                      </div>
                       <div class="atelier-block">
                 <div class="atelier-head">
-                    <span class="atelier-pill">Atelier 6</span>
+                    <span class="atelier-pill">Atelier 7</span>
                     <span class="atelier-titre"></span>
                 </div>
                       <div class="seances-row">
