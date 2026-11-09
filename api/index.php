@@ -904,7 +904,7 @@ footer {
                       <div class="seances-row">
                      <div class="seance-card">
                         <h4>Séance atelier 7</h4>
-                        <a href="Atelier 7 Pipeline CI CD avec GitLab et SonarQube Cloud.pdf">Voir raport</a>
+                        <a href="Atelier7.pdf">Voir raport</a>
                         
                     </div> </div> </div>
                     
