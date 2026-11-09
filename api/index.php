@@ -896,12 +896,17 @@ footer {
                         
                     </div>
                      </div>
+                      <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 6</span>
+                    <span class="atelier-titre"></span>
+                </div>
                       <div class="seances-row">
                      <div class="seance-card">
                         <h4>Séance atelier 7</h4>
                         <a href="Atelier 7 Pipeline CI CD avec GitLab et SonarQube Cloud.pdf">Voir raport</a>
                         
-                    </div>
+                    </div> </div> </div>
                     
                      </div>
                 </div>
