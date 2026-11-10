@@ -725,18 +725,12 @@ footer {
                     <div class="seance-card">
                         <h4>Séance atelier 1</h4>
                         <a href="Untitled.mdj">Voir exercice 1</a>
-                        
-                    </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
                         <a href="diagramme.mdj">Voir exercice 2</a>
-                        
-                    </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
                         <a href="les 5 diagrammes.pdf">Voir exercice 3</a>
                         
                     </div>
+                    
+                   
                     
                     
                 </div>
