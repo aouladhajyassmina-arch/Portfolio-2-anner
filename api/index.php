@@ -950,11 +950,7 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 2</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
+                   
                 </div>
             </div>
             <div class="atelier-block">
@@ -968,16 +964,8 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 3</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 3</h4>
-                        <a href="#">Voir exercice 3</a>
-                        
-                    </div>
+                   
+                   
                 </div>
             </div>
             <div class="atelier-block">
@@ -991,11 +979,7 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 4</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -1019,16 +1003,7 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
-                        <a href="#">Voir exercice 3</a>
-                        
-                    </div>
+                    
                 </div>
             </div>
             <div class="atelier-block">
@@ -1042,11 +1017,7 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 2</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
+                    
                 </div>
             </div>
             <div class="atelier-block">
@@ -1060,11 +1031,7 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 3</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
+                    
                 </div>
             </div>
             <div class="atelier-block">
@@ -1078,11 +1045,7 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 4</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -1106,16 +1069,7 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
-                        <a href="#">Voir exercice 3</a>
-                        
-                    </div>
+                    
                 </div>
             </div>
             <div class="atelier-block">
@@ -1129,11 +1083,7 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 2</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
+                   
                 </div>
             </div>
             <div class="atelier-block">
@@ -1147,11 +1097,7 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 3</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
+                    
                 </div>
             </div>
             <div class="atelier-block">
@@ -1165,11 +1111,7 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 4</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -1193,16 +1135,7 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
-                        <a href="#">Voir exercice 3</a>
-                        
-                    </div>
+                   
                 </div>
             </div>
             <div class="atelier-block">
@@ -1216,11 +1149,7 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 2</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
+                   
                 </div>
             </div>
             <div class="atelier-block">
@@ -1234,11 +1163,7 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 3</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
+                   
                 </div>
             </div>
             <div class="atelier-block">
@@ -1252,11 +1177,7 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 4</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -1280,11 +1201,7 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
+                    
                 </div>
             </div>
             <div class="atelier-block">
@@ -1298,16 +1215,7 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 2</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 2</h4>
-                        <a href="#">Voir exercice 3</a>
-                        
-                    </div>
+                   
                 </div>
             </div>
             <div class="atelier-block">
@@ -1321,11 +1229,7 @@ footer {
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 3</h4>
-                        <a href="#">Voir exercice 2</a>
-                        
-                    </div>
+                   
                 </div>
             </div>
             <div class="atelier-block">
