@@ -935,17 +935,8 @@ footer {
                      <a href="RapportAtelier1modul3.pdf" target="_blank">Voir le rapport</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
-                        <a href="/images/Exercice2.jpeg">Voir exercice 2</a>
-                        <a href="/images/exercice2logicial.jpeg">Voir exercice 2</a>
-                        
-                    </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
-                        <a href="#">Voir exercice 3</a>
-                        
-                    </div>
+                    
+                   
                 </div>
             </div>
             <div class="atelier-block">
