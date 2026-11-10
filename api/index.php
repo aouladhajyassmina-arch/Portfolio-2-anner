@@ -848,13 +848,10 @@ footer {
                     <div class="seance-card">
                         <h4>Séance atelier 4</h4>
                         <a href="Acheto_Etapes.pdf">Voir exercice 1</a>
+                         <a href="https://acheto-6yzg7meac-norahamioui761-pixels-projects.vercel.app/?_vercel_share=OHNuxfYoX8pNYG9RuSYRH49ORGpGM4wv">Voir Github</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 4</h4>
-                        <a href="https://acheto-6yzg7meac-norahamioui761-pixels-projects.vercel.app/?_vercel_share=OHNuxfYoX8pNYG9RuSYRH49ORGpGM4wv">Voir Github</a>
-                        
-                    </div>
+                   
                 </div>
             </div>
             
@@ -868,13 +865,10 @@ footer {
                     <div class="seance-card">
                         <h4>Séance atelier 5</h4>
                         <a href="Atelier5_Git_corrige_v1.pdf">Voir exercice 1</a>
+                         <a href="https://github.com/aouladhajyassmina-arch/travaille-colaboratif">Voir Github</a>
                         
                     </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 5</h4>
-                        <a href="https://github.com/aouladhajyassmina-arch/travaille-colaboratif">Voir Github</a>
-                        
-                    </div>
+                    
                      </div>
                 </div>
 
@@ -888,13 +882,10 @@ footer {
                      <div class="seance-card">
                         <h4>Séance atelier 6</h4>
                         <a href="https://atelier6-stagiaires.vercel.app">Voir exercice</a>
-                        
-                    </div>
-                    <div class="seance-card">
-                        <h4>Séance atelier 6</h4>
                         <a href="https://github.com/aouladhajyassmina-arch/atelier6-stagiaires">Voir Github</a>
                         
                     </div>
+                  
                      </div>
                       <div class="atelier-block">
                 <div class="atelier-head">
