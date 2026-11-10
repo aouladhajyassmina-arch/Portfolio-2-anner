@@ -904,7 +904,7 @@ footer {
                       <div class="seances-row">
                      <div class="seance-card">
                         <h4>Séance atelier 7</h4>
-                        <a href="public/Atelier7.pdf">Voir raport</a>
+                        <a href="Atelier7.pdf">Voir Github</a>
                         
                     </div> </div> </div>
                     
