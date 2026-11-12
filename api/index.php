@@ -943,7 +943,7 @@ footer {
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance atelier 3</h4>
-                        <a href="#">Voir exercice 1</a>
+                        <a href="RapportAtelier3modul3.pdf" target="_blank">Voir le rapport</a>
                         
                     </div>
                    
@@ -958,7 +958,7 @@ footer {
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance atelier 4</h4>
-                        <a href="#">Voir exercice 1</a>
+                        <a href="RapportAtelier4modul3.pdf" target="_blank">Voir le rapport</a>
                         
                     </div>
                    
@@ -982,7 +982,7 @@ footer {
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance atelier 1</h4>
-                        <a href="#">Voir exercice 1</a>
+                        <a href="RapportAtelier1modul4.pdf" target="_blank">Voir le rapport</a>
                         
                     </div>
                     
