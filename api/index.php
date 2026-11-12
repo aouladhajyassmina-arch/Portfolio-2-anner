@@ -726,7 +726,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
+                        <h4>Séance 1</h4>
                         <a href="Untitled.mdj">Voir exercice 1</a>
                         <a href="diagramme.mdj">Voir exercice 2</a>
                         <a href="les 5 diagrammes.pdf">les 5 diagrammes</a>
@@ -745,7 +745,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
+                        <h4>Séance 2</h4>
                         <a href="https://www.figma.com/design/eiKXZOcHahiGXCbwnF3Lkg/Untitled?node-id=0-1&p=f&m=draw">Voir exercice 1</a>
                         <a href="https://www.figma.com/design/mjI3Qbk04FZco0US6LhViG/Untitled?node-id=0-1&p=f&m=draw">Voir exercice 2</a>
                         <a href="https://www.figma.com/design/Cpfx6ZxTT3m3TyJHB6fF5U/Untitled?node-id=0-1&p=f&t=mPR31LV2vIbfvexV-0">Voir exercice 3</a>
@@ -809,7 +809,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance 1</h4>
+                        <h4>Séance 4</h4>
                         <a href="Atwlier2agile.pdf">Voir exercice 1</a>
                         
                     </div>
@@ -823,7 +823,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance 2</h4>
+                        <h4>Séance 5</h4>
                         <a href="Atelier3_Git_corrige_v2.pdf">Voir exercice 1</a>
                         
                     </div>
@@ -837,7 +837,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance 3</h4>
+                        <h4>Séance 6</h4>
                         <a href="Acheto_Etapes.pdf">Voir exercice 1</a>
                          <a href="https://acheto-6yzg7meac-norahamioui761-pixels-projects.vercel.app/?_vercel_share=OHNuxfYoX8pNYG9RuSYRH49ORGpGM4wv">Voir Github</a>
                         
@@ -854,7 +854,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance 1</h4>
+                        <h4>Séance 7</h4>
                         <a href="Atelier5_Git_corrige_v1.pdf">Voir exercice 1</a>
                          <a href="https://github.com/aouladhajyassmina-arch/travaille-colaboratif">Voir Github</a>
                         
@@ -871,7 +871,7 @@ footer {
                 </div>
                 <div class="seances-row">
                      <div class="seance-card">
-                        <h4>Séance 2</h4>
+                        <h4>Séance 8</h4>
                         <a href="https://atelier6-stagiaires.vercel.app">Voir exercice</a>
                         <a href="https://github.com/aouladhajyassmina-arch/atelier6-stagiaires">Voir Github</a>
                         
@@ -885,7 +885,7 @@ footer {
                 </div>
                       <div class="seances-row">
                      <div class="seance-card">
-                        <h4>Séance 3</h4>
+                        <h4>Séance 9</h4>
                         <a href="/Atelier7.pdf" target="_blank">Voir le rapport</a>
                         
                     </div> </div> </div>
@@ -942,7 +942,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance 1</h4>
+                        <h4>Séance 3</h4>
                         <a href="RapportAtelier3modul3.pdf" target="_blank">Voir le rapport</a>
                         
                     </div>
@@ -957,7 +957,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance 1</h4>
+                        <h4>Séance 4</h4>
                         <a href="RapportAtelier4modul3.pdf" target="_blank">Voir le rapport</a>
                         
                     </div>
