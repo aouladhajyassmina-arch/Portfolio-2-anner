@@ -780,19 +780,19 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
+                        <h4>Séance 1</h4>
                         <a href="/images/exercice1.jpeg">Voir exercice 1</a>
                         <a href="/images/exercice1logicial.jpeg">Voir exercice 1</a>
                         
                     </div>
                     <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
+                        <h4>Séance 2</h4>
                         <a href="/images/Exercice2.jpeg">Voir exercice 2</a>
                         <a href="/images/exercice2logicial.jpeg">Voir exercice 2</a>
                         
                     </div>
                      <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
+                        <h4>Séance 3</h4>
                         <a href="/images/WhatsApp Image 2026-09-30 at 10.51.24 (1).jpeg">Voir exercice 3</a>
                         <a href="/images/exercice3logicial.png">Voir exercice 3</a>
                         
@@ -809,7 +809,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance atelier 2</h4>
+                        <h4>Séance 1</h4>
                         <a href="Atwlier2agile.pdf">Voir exercice 1</a>
                         
                     </div>
@@ -823,7 +823,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance atelier 3</h4>
+                        <h4>Séance 2</h4>
                         <a href="Atelier3_Git_corrige_v2.pdf">Voir exercice 1</a>
                         
                     </div>
@@ -837,7 +837,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance atelier 4</h4>
+                        <h4>Séance 3</h4>
                         <a href="Acheto_Etapes.pdf">Voir exercice 1</a>
                          <a href="https://acheto-6yzg7meac-norahamioui761-pixels-projects.vercel.app/?_vercel_share=OHNuxfYoX8pNYG9RuSYRH49ORGpGM4wv">Voir Github</a>
                         
@@ -854,7 +854,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance atelier 5</h4>
+                        <h4>Séance 1</h4>
                         <a href="Atelier5_Git_corrige_v1.pdf">Voir exercice 1</a>
                          <a href="https://github.com/aouladhajyassmina-arch/travaille-colaboratif">Voir Github</a>
                         
@@ -871,7 +871,7 @@ footer {
                 </div>
                 <div class="seances-row">
                      <div class="seance-card">
-                        <h4>Séance atelier 6</h4>
+                        <h4>Séance 2</h4>
                         <a href="https://atelier6-stagiaires.vercel.app">Voir exercice</a>
                         <a href="https://github.com/aouladhajyassmina-arch/atelier6-stagiaires">Voir Github</a>
                         
@@ -885,7 +885,7 @@ footer {
                 </div>
                       <div class="seances-row">
                      <div class="seance-card">
-                        <h4>Séance atelier 7</h4>
+                        <h4>Séance 3</h4>
                         <a href="/Atelier7.pdf" target="_blank">Voir le rapport</a>
                         
                     </div> </div> </div>
@@ -913,7 +913,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
+                        <h4>Séance 1</h4>
                      <a href="RapportAtelier1modul3.pdf" target="_blank">Voir le rapport</a>
                         
                     </div>
@@ -928,7 +928,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance atelier 2</h4>
+                        <h4>Séance 2</h4>
                         <a href="RapportAtelier2modul3.pdf" target="_blank">Voir le rapport</a>
                         
                     </div>
@@ -942,7 +942,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance atelier 3</h4>
+                        <h4>Séance 1</h4>
                         <a href="RapportAtelier3modul3.pdf" target="_blank">Voir le rapport</a>
                         
                     </div>
@@ -957,7 +957,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance atelier 4</h4>
+                        <h4>Séance 1</h4>
                         <a href="RapportAtelier4modul3.pdf" target="_blank">Voir le rapport</a>
                         
                     </div>
@@ -981,7 +981,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance atelier 1</h4>
+                        <h4>Séance 1</h4>
                         <a href="RapportAtelier1modul4.pdf" target="_blank">Voir le rapport</a>
                         
                     </div>
@@ -995,7 +995,7 @@ footer {
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
-                        <h4>Séance atelier 2</h4>
+                        <h4>Séance 2</h4>
                         <a href="#">Voir exercice 1</a>
                         
                     </div>
