@@ -1317,7 +1317,7 @@ footer {
                 <h3>Gestionnaire de Tâches</h3>
                 <p>Application de suivi de tâches avec fonctionnalités CRUD et interface épurée.</p>
                 <div class="project-links">
-                    <a href="#" class="project-btn">GitHub</a>
+                    <a href="Planner.html" class="project-btn">voir l'app</a>
                     <a href="#" class="project-btn" style="background:var(--crimson); color:var(--ink); border-color:var(--crimson);">Démo en ligne</a>
                 </div>
             </div>
