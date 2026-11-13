@@ -1275,7 +1275,7 @@ footer {
                 <h3>Application Météo</h3>
                 <p>Application responsive affichant la météo en temps réel via une API.</p>
                 <div class="project-links">
-                    <a href="#" class="project-btn">GitHub</a>
+                    <a href="app meteo.html" class="project-btn">GitHub</a>
                     <a href="#" class="project-btn" style="background:var(--crimson); color:var(--ink); border-color:var(--crimson);">Démo en ligne</a>
                 </div>
             </div>

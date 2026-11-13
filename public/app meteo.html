@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ciel — Météo en temps réel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  @property --s1{syntax:'<color>';inherits:true;initial-value:#1f78d6}
+@property --s2{syntax:'<color>';inherits:true;initial-value:#8fd6ff}
+:root{--gl:rgba(255,255,255,.13);--dk:rgba(16,30,32,.86);--ln:rgba(255,255,255,.32);--soft:rgba(255,255,255,.8);--serif:"Cormorant Garamond",Georgia,serif;--b:"Outfit",system-ui,sans-serif}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--b);color:#fff;min-height:100vh;background:#16243a;text-shadow:0 1px 14px rgba(0,0,0,.3);overflow-x:hidden;line-height:1.45}
+#sky{position:fixed;inset:0;overflow:hidden;background:linear-gradient(180deg,var(--s1),var(--s2));transition:--s1 3s,--s2 3s}
+#sky::after{content:"";position:absolute;inset:0;background:radial-gradient(130% 90% at 50% 0,transparent 45%,rgba(0,0,0,.42))}
+.cl{position:absolute;left:-60vw;top:-5vh;width:220vw;height:100vh;filter:url(#cl1);opacity:var(--co,.5);transition:opacity 2s;animation:drift 160s linear infinite alternate;will-change:transform}
+.c2{filter:url(#cl2);top:25vh;animation-duration:110s;animation-direction:alternate-reverse}
+@keyframes drift{to{transform:translateX(40vw)}}
+.tint{position:absolute;inset:0;background:linear-gradient(180deg,var(--s1),var(--s2));mix-blend-mode:soft-light;opacity:.9}
+.orb{position:absolute;width:min(24vw,190px);aspect-ratio:1;border-radius:50%;transform:translate(-50%,-50%);transition:left 3s,top 3s,opacity 2s}
+.orb.sun{background:radial-gradient(circle,#fffbe0 0 24%,#ffd36b 42%,transparent 70%);box-shadow:0 0 130px 70px rgba(255,190,90,.34)}
+.orb.moon{background:radial-gradient(circle,#fff 0 26%,#dfe6ff 46%,transparent 70%);box-shadow:0 0 90px 30px rgba(190,205,255,.25)}
+#fl{position:absolute;inset:0;background:#dfe8ff;opacity:0;pointer-events:none}
+#fl.on{animation:flash .7s}@keyframes flash{0%{opacity:0}10%{opacity:.65}22%{opacity:.08}34%{opacity:.5}100%{opacity:0}}
+#fx{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}
+.app{position:relative;z-index:2;max-width:1120px;margin:0 auto;padding:20px 18px 40px}
+header{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.brand{font-family:var(--serif);font-weight:600;font-size:2rem;margin-right:auto}
+.search{position:relative;flex:1 1 260px;max-width:400px}
+input,.btn{border:1px solid var(--ln);background:var(--gl);backdrop-filter:blur(18px);color:#fff;font:inherit;border-radius:999px}
+input{width:100%;padding:12px 20px}input::placeholder{color:var(--soft)}
+.btn{padding:11px 18px;font-weight:500;cursor:pointer;transition:.2s}.btn:hover{background:rgba(255,255,255,.24)}
+:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.sug{position:absolute;top:100%;left:0;right:0;margin-top:6px;background:rgba(16,30,32,.95);border-radius:20px;overflow:hidden;list-style:none;padding:0;z-index:9}
+.sug button{display:block;width:100%;text-align:left;padding:11px 18px;background:none;border:0;color:#fff;font:inherit;cursor:pointer}
+.sug button:hover{background:rgba(255,255,255,.14)}.sug small{color:var(--soft)}
+.g{background:var(--gl);border:1px solid var(--ln);backdrop-filter:blur(22px) saturate(1.2);border-radius:34px;padding:20px 22px}
+.g h2{font-size:.95rem;font-weight:500;color:var(--soft);margin-bottom:8px}
+#main.swap{animation:swap .9s cubic-bezier(.2,.7,.2,1)}
+@keyframes swap{from{opacity:0;filter:blur(14px);transform:translateY(16px)}}
+.stage{display:grid;grid-template-columns:1fr 430px;gap:34px;align-items:start;margin-top:34px}
+.intro{display:flex;flex-direction:column;gap:18px}
+h1{font-family:var(--serif);font-weight:500;font-size:clamp(2.8rem,6vw,4.7rem);line-height:1;letter-spacing:-.01em}
+.lead{color:var(--soft);font-weight:300;font-size:1.1rem;max-width:34ch}
+/* Popup façon verre */
+.widget{border-radius:52px;padding:18px;background:rgba(255,255,255,.14);border:1px solid var(--ln);backdrop-filter:blur(28px) saturate(1.2);box-shadow:0 30px 80px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,255,255,.35);display:flex;flex-direction:column;gap:14px}
+.top{display:flex;align-items:center;gap:14px;padding:22px 20px;border-radius:38px;background:rgba(255,255,255,.13)}
+.ico{animation:float 6s ease-in-out infinite;filter:drop-shadow(0 12px 16px rgba(0,0,0,.25))}
+@keyframes float{50%{transform:translateY(-8px) rotate(-2deg)}}
+.when{font-size:.85rem;color:var(--soft);text-transform:capitalize;font-variant-numeric:tabular-nums}
+.ttl{font-size:1.65rem;font-weight:600;line-height:1.15;margin:2px 0}
+.ttl b{font-weight:600;white-space:nowrap}.ttl small{font-size:1em}
+.where{color:var(--soft);font-weight:300}
+.sunp,.rain{display:flex;align-items:center;justify-content:center;gap:10px;background:var(--dk);border-radius:999px;padding:14px 18px;text-shadow:none}
+.sunp{justify-content:space-between}.sunp span{font-weight:500;display:flex;align-items:center;gap:8px;font-variant-numeric:tabular-nums}
+.dash{flex:1;border-top:2px dashed rgba(255,255,255,.35)}.dur{color:var(--soft);font-weight:300;white-space:nowrap}
+.rain{font-weight:300;color:var(--soft)}.rain b{color:#fff;font-weight:500}
+.row2{display:flex;justify-content:space-between;padding:0 8px;color:var(--soft);font-weight:300}.row2 b{color:#fff;font-weight:500}
+.days{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.dy{display:flex;flex-direction:column;align-items:center;gap:6px;padding:14px 0;border-radius:40px;border:1px solid transparent;background:rgba(255,255,255,.13);color:#fff;font:inherit;font-size:.85rem;cursor:pointer;transition:.3s}
+.dy:hover{background:rgba(255,255,255,.22)}.dy.on{background:rgba(255,200,185,.34);border-color:rgba(255,255,255,.5);transform:translateY(-4px)}
+.dy b{font-weight:500;font-size:.8rem}.dy small{color:var(--soft);font-size:.95rem}.dy span{font-size:1rem}
+.more{text-align:center;font-size:.82rem;color:var(--soft);font-weight:300}
+#ch svg{width:100%;height:auto;display:block}#ch text{fill:#fff;font-size:13px;font-weight:500}#ch .hl{fill:rgba(255,255,255,.75);font-weight:300}
+.ln{stroke-dasharray:1;stroke-dashoffset:1;animation:dr 1.6s ease forwards}.ar{animation:fi 1.6s}
+@keyframes dr{to{stroke-dashoffset:0}}@keyframes fi{from{opacity:0}}
+.pu{animation:pu 2s infinite}@keyframes pu{50%{r:11;opacity:.7}}
+.pop{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:10px}
+.pc{position:relative;overflow:hidden;display:flex;align-items:center;gap:8px;padding:11px 16px;border-radius:999px;color:#fff;font:inherit;text-align:left;cursor:pointer}
+.pc span{display:flex;flex-direction:column;line-height:1.2}.pc small{font-size:1.05rem;color:var(--soft)}
+.pc.on{border-color:#fff;background:rgba(255,255,255,.24)}
+.pc i{position:absolute;left:0;bottom:0;height:3px;width:0;background:#fff}
+.run .pc.on i{animation:pg var(--iv,14s) linear forwards}@keyframes pg{to{width:100%}}
+.state{text-align:center;padding:120px 0;font-family:var(--serif);font-size:2rem;animation:pu2 1.4s infinite}@keyframes pu2{50%{opacity:.5}}
+.err{background:rgba(130,20,30,.6);border-radius:16px;padding:12px 16px;margin-top:14px}
+footer{margin-top:26px;text-align:center;color:var(--soft);font-size:.82rem}
+@media(max-width:860px){.stage{grid-template-columns:1fr}.widget{order:-1}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.ln{stroke-dashoffset:0}}
+
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<linearGradient id="gC" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#cfd9e6"/></linearGradient>
+<linearGradient id="gD" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b4c0ce"/><stop offset="1" stop-color="#7d8b9f"/></linearGradient>
+<radialGradient id="gS"><stop offset="0" stop-color="#ffe27a"/><stop offset="1" stop-color="#ff9a2e"/></radialGradient>
+<radialGradient id="gM"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#cdd6f4"/></radialGradient>
+<filter id="cl1" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".0028 .008" numOctaves="5" seed="7"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 2.4 -.8"/></filter>
+<filter id="cl2" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".004 .012" numOctaves="5" seed="23"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 2.2 -.72"/></filter>
+</defs></svg>
+<div id="sky"><div id="orb" class="orb"></div><div class="cl"></div><div class="cl c2"></div><div class="tint"></div><div id="fl"></div></div>
+<canvas id="fx" aria-hidden="true"></canvas>
+<div class="app">
+  <header>
+    <div class="brand">Ciel</div>
+    <div class="search">
+      <input id="q" type="search" placeholder="Rechercher une ville…" autocomplete="off" aria-label="Rechercher une ville">
+      <ul class="sug" id="sug" hidden></ul>
+    </div>
+    <button class="btn" id="auto" aria-pressed="true">Auto ⏸</button>
+    <button class="btn" id="geo" aria-label="Ma position">📍</button>
+    <button class="btn" id="unit" aria-label="Changer d'unité">°C</button>
+  </header>
+  <div id="err" role="alert"></div>
+  <main id="main"><div class="state">Chargement du ciel…</div></main>
+  <footer>Données Open-Meteo · © 2026 Ciel</footer>
+</div>
+<script>
+window.CFG={interval:14000,cities:[
+{n:"Tanger",c:"Maroc",lat:35.7595,lon:-5.834},
+{n:"Casablanca",c:"Maroc",lat:33.5731,lon:-7.5898},
+{n:"Paris",c:"France",lat:48.8566,lon:2.3522},
+{n:"Londres",c:"Royaume-Uni",lat:51.5072,lon:-0.1276},
+{n:"New York",c:"États-Unis",lat:40.7128,lon:-74.006},
+{n:"Dubaï",c:"Émirats arabes unis",lat:25.2048,lon:55.2708},
+{n:"Tokyo",c:"Japon",lat:35.6762,lon:139.6503},
+{n:"Sydney",c:"Australie",lat:-33.8688,lon:151.2093}]};
+</script>
+<script src="app.js" defer></script>
+</body>
+</html>
