@@ -964,6 +964,20 @@ footer {
                    
                 </div>
             </div>
+             <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 5</span>
+                    <span class="atelier-titre">CRUD avec Mongoose</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance 5</h4>
+                        <a href="RapportAtelier5modul3.pdf" target="_blank">Voir le rapport</a>
+                        
+                    </div>
+                   
+                </div>
+            </div>
         </div>
         <div class="module-block reveal">
             <div class="module-block-head">
