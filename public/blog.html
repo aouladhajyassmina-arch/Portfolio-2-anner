@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lina – The Self-Care Blog</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Oswald:wght@400;500&family=Allura&display=swap" rel="stylesheet">
+<style>
+:root{
+  --blush:#fdf1ec; --peach:#fddcd0; --peach-d:#f6c6b5; --mist:#e9ebf0; --ink:#1b1b1d; --muted:#6b6670;
+  --serif:'EB Garamond',Georgia,serif; --head:'Oswald','Arial Narrow',sans-serif; --script:'Allura',cursive;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--serif);font-size:18px;line-height:1.65;color:var(--ink);background:#fff}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px}
+
+/* nav */
+.nav{position:absolute;top:28px;left:50%;transform:translateX(-50%);width:min(1000px,calc(100% - 48px));background:#fff;
+  display:flex;align-items:center;justify-content:space-between;padding:10px 32px;z-index:5}
+.nav ul{display:flex;gap:26px;list-style:none}
+.nav a,.btn,.cat,.meta{font-family:var(--head);text-transform:uppercase;letter-spacing:.12em;text-decoration:none}
+.nav a{font-size:11px}
+.nav a:hover{color:var(--muted)}
+.logo{font-family:var(--script);font-size:46px;line-height:1;text-decoration:none}
+
+/* hero */
+.hero{position:relative;min-height:520px;padding-top:190px;text-align:center;color:#fff;
+  background:linear-gradient(rgba(70,45,45,.38),rgba(70,45,45,.28)),url(img/3.jpg) center 35%/cover #c9a99e}
+.hero h1{font-family:var(--head);font-weight:400;font-size:30px;letter-spacing:.14em;text-transform:uppercase}
+.hero hr{width:100px;border:0;border-top:1px solid #fff;border-bottom:1px solid #fff;height:4px;margin:12px auto}
+.hero p{font-family:var(--head);font-size:12px;letter-spacing:.2em;text-transform:uppercase;line-height:2}
+
+/* categories */
+.tiles{display:flex;justify-content:center;align-items:flex-start;gap:24px;margin-top:-110px;position:relative;padding:0 24px}
+.tile{border:0;background:none;cursor:pointer;text-align:center;font:inherit;width:min(280px,30%)}
+.tile .frame{background:var(--mist);padding:14px;transition:background .2s}
+.tile:nth-child(2){margin-top:80px}
+.tile .art{aspect-ratio:3/4;overflow:hidden}
+.tile:nth-child(2) .art{aspect-ratio:4/3}
+.tile .btn{display:inline-block;background:var(--peach);padding:9px 0;width:75px;min-width:75px;margin-top:8px;font-size:10px;width:auto;padding-inline:26px}
+.tile[aria-pressed=true] .frame{background:var(--peach-d)}
+.tile[aria-pressed=true] .btn{background:var(--ink);color:#fff}
+.rule{border:0;border-top:1px solid var(--peach-d);border-bottom:1px solid var(--peach-d);height:4px;max-width:952px;margin:40px auto 0}
+
+/* posts */
+.post{padding:56px 0}
+.post:nth-of-type(odd){background:var(--blush)}
+.post .wrap{display:grid;grid-template-columns:1fr 1fr;gap:16px 40px;align-items:center}
+.post:nth-of-type(even) .pic{order:2}
+.pic{aspect-ratio:1;overflow:hidden;background:var(--mist)}
+.pic img,.art img{width:100%;height:100%;object-fit:cover;display:block}
+.post h2{font-family:var(--head);font-weight:400;font-size:28px;letter-spacing:.08em;text-transform:uppercase;line-height:1.25}
+.cat{display:block;font-size:11px;font-weight:500;margin:14px 0}
+.post p.ex{font-size:15.5px;margin-bottom:22px}
+.btn{display:inline-block;background:var(--peach);border:0;padding:11px 34px;font-size:11px;cursor:pointer;color:var(--ink);transition:background .2s}
+.btn:hover{background:var(--peach-d)}
+.empty{text-align:center;padding:90px 24px;color:var(--muted)}
+
+/* pager */
+.pager{background:var(--mist);padding:16px 0}
+.pager .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px}
+.pager button{background:none;border:0;font-family:var(--head);font-size:10px;letter-spacing:.14em;text-transform:uppercase;cursor:pointer}
+.pager button:disabled{opacity:.3;cursor:default}
+.pager input{background:var(--blush);border:0;padding:6px 10px;font:12px var(--serif);width:min(230px,40vw);text-align:center}
+
+/* footer */
+footer{background:var(--blush);padding:12px 0 40px}
+.foot{background:#fff;width:min(1000px,calc(100% - 48px));margin:0 auto;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:8px 18px}
+.foot ul{list-style:none;display:flex;gap:22px}
+.foot ul:last-child{justify-content:flex-end}
+.foot a,.foot button{font-family:var(--head);font-size:9px;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;background:none;border:0;cursor:pointer;color:inherit}
+.foot .logo{font-size:38px}
+.copy{text-align:center;font-size:12px;color:var(--muted);margin-top:18px}
+
+/* modal + markdown */
+dialog{border:0;margin:auto;width:min(760px,94vw);max-height:92vh;overflow:auto;padding:44px clamp(20px,5vw,56px);background:#fff}
+dialog::backdrop{background:rgba(27,27,29,.55)}
+.x{position:sticky;float:right;top:0;background:var(--peach);border:0;width:34px;height:34px;cursor:pointer;font-size:18px}
+.md h1,.md h2,.md h3{font-family:var(--head);font-weight:400;text-transform:uppercase;letter-spacing:.07em;margin:1.4em 0 .5em;line-height:1.25}
+.md h1{font-size:30px;margin-top:0}.md h2{font-size:22px}.md h3{font-size:17px}
+.md p,.md ul,.md ol,.md blockquote,.md pre{margin-bottom:1.1em}
+.md ul,.md ol{padding-left:1.4em}
+.md blockquote{border-left:3px solid var(--peach-d);padding:2px 0 2px 18px;font-style:italic;color:var(--muted)}
+.md code{background:var(--mist);padding:1px 6px;font-size:.88em}
+.md pre{background:var(--mist);padding:14px;overflow:auto}.md pre code{padding:0}
+.md hr{border:0;border-top:1px solid var(--peach-d);margin:2em 0}
+.md a{text-decoration-color:var(--peach-d);text-underline-offset:3px;text-decoration-thickness:2px}
+.editor{display:grid;gap:14px}
+.editor h3{font-family:var(--head);font-weight:400;letter-spacing:.1em;text-transform:uppercase}
+.editor input,.editor select,.editor textarea{font:16px var(--serif);padding:10px;border:1px solid var(--mist);background:var(--blush);width:100%}
+.editor textarea{min-height:200px;resize:vertical;font-family:ui-monospace,monospace;font-size:14px}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.preview{border:1px dashed var(--peach-d);padding:14px;max-height:300px;overflow:auto;font-size:16px}
+.msg{font-size:14px;color:#a0412a;min-height:1.2em}
+.note{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;font-size:13px;padding:8px 16px;display:none;z-index:9}
+
+@media(max-width:760px){
+  .nav{padding:8px 14px;top:14px}.nav ul{gap:10px;flex-wrap:wrap}.nav .soc{display:none}.logo{font-size:34px}
+  .hero{padding-top:150px;min-height:460px}.hero h1{font-size:22px}
+  .tiles{gap:10px;padding:0 10px}.tile .frame{padding:6px}
+  .post .wrap{grid-template-columns:1fr}.post:nth-of-type(even) .pic{order:0}
+  .foot{grid-template-columns:1fr;justify-items:center;gap:6px}.foot ul{flex-wrap:wrap;justify-content:center!important}
+  .cols{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <nav class="nav" aria-label="Navigation principale">
+    <ul><li><a href="#top">Accueil</a></li><li><a href="#about">À propos</a></li><li><a href="#blog">Transforme ta vie</a></li></ul>
+    <a class="logo" href="#top">Lina</a>
+    <ul><li><a href="#contact">Contact</a></li><li><a href="#blog">Blog</a></li></ul>
+  </nav>
+  <h1 id="top">The Self-Care Blog</h1>
+  <hr>
+  <p>Santé, bien-être &amp;<br>self-care pour entrepreneurs</p>
+</header>
+
+<section class="tiles" aria-label="Catégories" id="cats"></section>
+<hr class="rule">
+
+<main id="blog"><div id="list"></div></main>
+
+<nav class="pager" aria-label="Pagination">
+  <div class="wrap">
+    <button id="older">Articles précédents</button>
+    <input id="q" type="search" placeholder="Rechercher sur le site…" aria-label="Rechercher">
+    <button id="newer">Articles suivants</button>
+  </div>
+</nav>
+
+<footer id="about">
+  <div class="foot">
+    <ul><li><a href="#top">Accueil</a></li><li><a href="#about">À propos</a></li></ul>
+    <a class="logo" href="#top">Lina</a>
+    <ul id="contact"><li><a href="mailto:hello@example.com">Contact</a></li><li><button id="write">Écrire un article</button></li></ul>
+  </div>
+  <p class="copy">© 2026 Lina · Articles en Markdown</p>
+</footer>
+
+<dialog id="reader" aria-label="Article"><button class="x" aria-label="Fermer">×</button><article class="md" id="art"></article>
+  <p style="margin-top:28px"><button class="btn" id="edit" hidden>Modifier</button> <button class="btn" id="del" hidden>Supprimer</button></p></dialog>
+
+<dialog id="ed" aria-label="Éditeur"><button class="x" aria-label="Fermer">×</button>
+  <div class="editor">
+    <h3 id="edt">Nouvel article</h3>
+    <input id="pw" type="password" placeholder="Mot de passe admin" autocomplete="current-password">
+    <div class="cols"><input id="ti" placeholder="Titre"><select id="ca"><option>Wellness</option><option>DIY Beauty</option><option>Skincare</option></select></div>
+    <div class="cols">
+      <textarea id="bo" placeholder="Écris en Markdown : # Titre, **gras**, *italique*, - liste, > citation, [lien](https://…)"></textarea>
+      <div class="preview md" id="pv"></div>
+    </div>
+    <p class="msg" id="msg" role="alert"></p>
+    <button class="btn" id="save">Publier</button>
+  </div>
+</dialog>
+<div class="note" id="note" role="status"></div>
+
+<script>
+/* ---------- Mini parseur Markdown ---------- */
+const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+function inline(s){
+  s = esc(s);
+  return s.replace(/`([^`]+)`/g,'<code>$1</code>')
+    .replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>')
+    .replace(/(^|[\s(])\*([^*\s][^*]*)\*/g,'$1<em>$2</em>')
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+|#[^)\s]*)\)/g,'<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+}
+function md(src){
+  const lines = src.replace(/\r/g,'').split('\n'); let out='', i=0;
+  while(i<lines.length){
+    const l = lines[i];
+    if(/^```/.test(l)){ let b=[]; i++; while(i<lines.length && !/^```/.test(lines[i])) b.push(lines[i++]); i++; out+=`<pre><code>${esc(b.join('\n'))}</code></pre>`; continue; }
+    let m;
+    if(m=l.match(/^(#{1,3})\s+(.*)/)){ out+=`<h${m[1].length}>${inline(m[2])}</h${m[1].length}>`; i++; continue; }
+    if(/^(-{3,}|\*{3,})\s*$/.test(l)){ out+='<hr>'; i++; continue; }
+    if(/^>\s?/.test(l)){ let b=[]; while(i<lines.length && /^>\s?/.test(lines[i])) b.push(lines[i++].replace(/^>\s?/,'')); out+=`<blockquote>${inline(b.join(' '))}</blockquote>`; continue; }
+    if(/^\s*([-*]|\d+\.)\s+/.test(l)){ const ol=/^\s*\d+\./.test(l); let b=[]; while(i<lines.length && /^\s*([-*]|\d+\.)\s+/.test(lines[i])) b.push(`<li>${inline(lines[i++].replace(/^\s*([-*]|\d+\.)\s+/,''))}</li>`); out+=ol?`<ol>${b.join('')}</ol>`:`<ul>${b.join('')}</ul>`; continue; }
+    if(!l.trim()){ i++; continue; }
+    let b=[]; while(i<lines.length && lines[i].trim() && !/^(#{1,3}\s|>|```|\s*([-*]|\d+\.)\s)/.test(lines[i])) b.push(lines[i++]);
+    out+=`<p>${inline(b.join(' '))}</p>`;
+  }
+  return out;
+}
+const plain = s => s.replace(/```[\s\S]*?```/g,'').replace(/[#>*_`\-]|\[([^\]]+)\]\([^)]*\)/g,'$1').replace(/\s+/g,' ').trim();
+
+/* ---------- Données ---------- */
+const DEMO = [
+ {id:'d1',img:'img/4.jpg',title:'Masque concombre & yaourt',category:'DIY Beauty',date:'2026-11-10',body:'# Masque concombre & yaourt\n\nUn soin **apaisant** à faire en 5 minutes.\n\n## Ingrédients\n- 1/2 concombre\n- 2 c. à soupe de yaourt nature\n- 1 c. à café de miel\n\n## Préparation\n1. Mixe le concombre.\n2. Mélange avec le yaourt et le miel.\n3. Laisse poser 10 minutes, puis rince à l’eau tiède.\n\n> Ton visage te dira merci.'},
+ {id:'d2',img:'img/1.jpg',title:'Ta peau aime la régularité',category:'Wellness',date:'2026-11-03',body:'# Ta peau aime la régularité\n\nPetits gestes, grands résultats : **les mêmes** étapes, chaque jour.\n\n- Garde ta peau propre\n- Hydrate-toi, dehors comme dedans\n- Nourris ta peau chaque jour\n- Sois douce avec elle\n\n> Glowy, healthy, happy me.'},
+ {id:'d3',img:'img/6.jpg',title:'Comment choisir son sérum',category:'Skincare',date:'2026-10-27',body:'# Comment choisir son sérum\n\nCommence par **un seul** actif, selon ton besoin.\n\n## Repères\n- Éclat : vitamine C ou niacinamide\n- Hydratation : acide hyaluronique\n- Peau sensible : centella\n\n## Astuce\nTeste toujours un nouveau produit *sur le poignet* pendant 24 heures.'},
+ {id:'d4',img:'img/5.jpg',title:'Gommage maison au sucre et au miel',category:'DIY Beauty',date:'2026-10-20',body:'# Gommage maison\n\nMélange `3 c. à soupe` de sucre, 1 c. à soupe d’huile d’olive et un peu de miel. Masse doucement en cercles.'},
+ {id:'d5',img:'img/7.jpg',title:'Le rituel du soir pour mieux dormir',category:'Wellness',date:'2026-10-12',body:'# Le rituel du soir\n\nCoupe les écrans **30 minutes** avant de dormir.\n\n---\n\nUn masque lèvres, une bougie, une tisane. Petit à petit, le sommeil revient.'}
+];
+const CATS = {
+ 'Wellness': {img:'img/8.jpg',pool:['img/8.jpg','img/7.jpg','img/1.jpg']},
+ 'DIY Beauty': {img:'img/4.jpg',pool:['img/4.jpg','img/5.jpg']},
+ 'Skincare': {img:'img/2.jpg',pool:['img/2.jpg','img/3.jpg','img/6.jpg']}
+};
+const imgOf = p => p.img || (CATS[p.category]||CATS.Wellness).pool[[...p.id].reduce((a,c)=>a+c.charCodeAt(0),0)%(CATS[p.category]||CATS.Wellness).pool.length];
+let posts=[], demo=false, page=0, cat=null, query='', pass='', editing=null, current=null;
+const PER=3, $=id=>document.getElementById(id);
+const fmt = d => new Date(d+'T00:00').toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'});
+
+let server=false;
+const ADMIN_PASS='changeme'; // 3ayyar had password (protection basique cote navigateur)
+async function load(){
+  try{
+    const r = await fetch('api.php?api=posts'); if(!r.ok) throw 0;
+    posts = await r.json(); if(!Array.isArray(posts)) throw 0; server=true;
+  }catch(e){
+    server=false; posts=null;
+    try{ posts=JSON.parse(localStorage.getItem('posts')); }catch(_){}
+    if(!Array.isArray(posts)||!posts.length) posts=DEMO.slice();
+  }
+  render();
+}
+
+/* ---------- Rendu ---------- */
+function drawCats(){
+  $('cats').innerHTML = Object.keys(CATS).map(c=>`<button class="tile" aria-pressed="${cat===c}" data-c="${c}"><div class="frame"><div class="art"><img src="${CATS[c].img}" alt="${c}"></div></div><span class="btn">${c}</span></button>`).join('');
+}
+function filtered(){
+  const q = query.toLowerCase();
+  return posts.filter(p=>(!cat||p.category===cat) && (!q || (p.title+' '+p.body).toLowerCase().includes(q)));
+}
+function render(){
+  drawCats();
+  const all = filtered(), pages = Math.max(1,Math.ceil(all.length/PER));
+  page = Math.min(page,pages-1);
+  const slice = all.slice(page*PER,page*PER+PER);
+  $('list').innerHTML = slice.length ? slice.map(p=>`
+    <section class="post"><div class="wrap">
+      <div class="pic"><img src="${imgOf(p)}" alt="${esc(p.title)}" loading="lazy"></div>
+      <div><h2>${esc(p.title)}</h2><span class="cat">${esc(p.category)} · ${fmt(p.date)}</span>
+      <p class="ex">${esc(plain(p.body).slice(0,230))}…</p>
+      <button class="btn" data-id="${p.id}">Lire</button></div>
+    </div></section>`).join('') : '<p class="empty">Aucun article trouvé. Essaie une autre recherche ou catégorie.</p>';
+  $('older').disabled = page>=pages-1; $('newer').disabled = page===0;
+}
+function note(t){ const n=$('note'); n.textContent=t; n.style.display='block'; setTimeout(()=>n.style.display='none',2600); }
+
+/* ---------- Événements ---------- */
+$('cats').onclick = e=>{ const t=e.target.closest('.tile'); if(!t) return; cat = cat===t.dataset.c?null:t.dataset.c; page=0; render(); };
+$('list').onclick = e=>{ const b=e.target.closest('[data-id]'); if(!b) return; current=posts.find(p=>p.id===b.dataset.id);
+  $('art').innerHTML = `<span class="cat" style="margin-top:0">${esc(current.category)} · ${fmt(current.date)}</span>`+md(current.body);
+  $('edit').hidden = $('del').hidden = !pass; $('reader').showModal(); };
+$('older').onclick = ()=>{ page++; render(); scrollTo({top:$('blog').offsetTop-80}); };
+$('newer').onclick = ()=>{ page--; render(); scrollTo({top:$('blog').offsetTop-80}); };
+$('q').oninput = e=>{ query=e.target.value; page=0; render(); };
+document.querySelectorAll('dialog .x').forEach(b=>b.onclick=()=>b.closest('dialog').close());
+document.querySelectorAll('dialog').forEach(d=>d.addEventListener('click',e=>{ if(e.target===d) d.close(); }));
+
+function openEditor(p){
+  editing = p?p.id:null; $('edt').textContent = p?'Modifier l’article':'Nouvel article';
+  $('ti').value = p?p.title:''; $('ca').value = p?p.category:'Wellness'; $('bo').value = p?p.body:''; $('pw').value = pass;
+  $('pv').innerHTML = md($('bo').value); $('msg').textContent=''; $('ed').showModal();
+}
+$('write').onclick = ()=>openEditor(null);
+$('edit').onclick = ()=>{ $('reader').close(); openEditor(current); };
+$('bo').oninput = ()=>{ $('pv').innerHTML = md($('bo').value); };
+
+async function call(action,body){
+  if(!server){
+    if(pass!==ADMIN_PASS) throw new Error('Mot de passe incorrect');
+    if(action==='save'){
+      const t=body.title.trim(), b=body.body.trim(); if(!t||!b) throw new Error('Titre et contenu requis');
+      const p=posts.find(x=>x.id===body.id);
+      if(p) Object.assign(p,{title:t,body:b,category:body.category});
+      else posts.unshift({id:Math.random().toString(36).slice(2,10),title:t,category:body.category,body:b,date:new Date().toISOString().slice(0,10)});
+    } else posts=posts.filter(x=>x.id!==body.id);
+    try{ localStorage.setItem('posts',JSON.stringify(posts)); }catch(_){ throw new Error('Stockage du navigateur indisponible'); }
+    return {ok:true};
+  }
+  const r = await fetch('api.php?api='+action,{method:'POST',headers:{'Content-Type':'application/json','X-Admin':pass},body:JSON.stringify(body)});
+  const j = await r.json().catch(()=>({error:'Le serveur PHP ne répond pas'}));
+  if(!r.ok) throw new Error(j.error||'Erreur'); return j;
+}
+$('save').onclick = async ()=>{
+  pass = $('pw').value;
+  try{ await call('save',{id:editing,title:$('ti').value,category:$('ca').value,body:$('bo').value});
+    $('ed').close(); await load(); note('Article publié'); }
+  catch(e){ $('msg').textContent=e.message; }
+};
+$('del').onclick = async ()=>{
+  if(!confirm('Supprimer cet article ?')) return;
+  try{ await call('delete',{id:current.id}); $('reader').close(); await load(); note('Article supprimé'); }
+  catch(e){ note(e.message); }
+};
+load();
+</script>
+</body>
+</html>

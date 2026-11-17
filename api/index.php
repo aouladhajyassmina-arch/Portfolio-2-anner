@@ -978,6 +978,34 @@ footer {
                    
                 </div>
             </div>
+             <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 6</span>
+                    <span class="atelier-titre">CRUD avec Mongoose</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance 6</h4>
+                        <a href="RapportAtelier6modul3.pdf" target="_blank">Voir le rapport</a>
+                        
+                    </div>
+                   
+                </div>
+                 </div>
+             <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 7</span>
+                    <span class="atelier-titre">CRUD avec Mongoose</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance 7</h4>
+                        <a href="RapportAtelier7modul3.pdf" target="_blank">Voir le rapport</a>
+                        
+                    </div>
+                   
+                </div>
+            </div>
         </div>
         <div class="module-block reveal">
             <div class="module-block-head">
@@ -1289,7 +1317,7 @@ footer {
                 <h3>Application Météo</h3>
                 <p>Application responsive affichant la météo en temps réel via une API.</p>
                 <div class="project-links">
-                    <a href="app meteo.html" class="project-btn">GitHub</a>
+                    <a href="app meteo.html" class="project-btn">voir le site</a>
                     <a href="#" class="project-btn" style="background:var(--crimson); color:var(--ink); border-color:var(--crimson);">Démo en ligne</a>
                 </div>
             </div>
@@ -1303,7 +1331,7 @@ footer {
                 <h3>Site de Blog</h3>
                 <p>Plateforme de blog simple et épurée avec support du markdown.</p>
                 <div class="project-links">
-                    <a href="#" class="project-btn">GitHub</a>
+                    <a href="blog.html" class="project-btn">voir le site</a>
                     <a href="#" class="project-btn" style="background:var(--crimson); color:var(--ink); border-color:var(--crimson);">Démo en ligne</a>
                 </div>
             </div>
