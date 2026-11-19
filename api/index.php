@@ -1303,7 +1303,7 @@ footer {
                 <h3>Site Portfolio</h3>
                 <p>Portfolio personnel pour présenter mes projets de design et de développement.</p>
                 <div class="project-links">
-                    <a href="#" class="project-btn">GitHub</a>
+                    <a href="https://portfolio-yasmina-2-anner-15k2-ddu3m0p2i.vercel.app/" class="project-btn">voir le site</a>
                     <a href="#" class="project-btn" style="background:var(--crimson); color:var(--ink); border-color:var(--crimson);">Démo en ligne</a>
                 </div>
             </div>
