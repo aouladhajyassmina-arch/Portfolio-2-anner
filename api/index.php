@@ -710,6 +710,8 @@ footer {
         <p>Les 7 modules de ma formation, avec le détail des ateliers et séances réalisés</p>
     </div>
     <div class="modules-list">
+
+        <!-- ================= MODULE 1 ================= -->
         <div class="module-block reveal">
             <div class="module-block-head">
                 <span class="module-index">Module 1</span>
@@ -722,7 +724,7 @@ footer {
             <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">UML</span>
-                    <span class="atelier-titre">Analyse des besoins et cahier des charges</span>
+                    <span class="atelier-titre">Application de gestion d'une société immobilière : cas d'utilisation, classes et séquences</span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
@@ -730,18 +732,14 @@ footer {
                         <a href="Untitled.mdj">Voir exercice 1</a>
                         <a href="diagramme.mdj">Voir exercice 2</a>
                         <a href="les 5 diagrammes.pdf">les 5 diagrammes</a>
-                        
                     </div>
-                    
-                   
-                    
-                    
                 </div>
             </div>
+
             <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">FIGMA</span>
-                    <span class="atelier-titre">Maquettage et wireframes</span>
+                    <span class="atelier-titre">Maquettage, wireframes et prototypage avec Figma</span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
@@ -749,21 +747,16 @@ footer {
                         <a href="https://www.figma.com/design/eiKXZOcHahiGXCbwnF3Lkg/Untitled?node-id=0-1&p=f&m=draw">Voir exercice 1</a>
                         <a href="https://www.figma.com/design/mjI3Qbk04FZco0US6LhViG/Untitled?node-id=0-1&p=f&m=draw">Voir exercice 2</a>
                         <a href="https://www.figma.com/design/Cpfx6ZxTT3m3TyJHB6fF5U/Untitled?node-id=0-1&p=f&t=mPR31LV2vIbfvexV-0">Voir exercice 3</a>
-                        
                     </div>
-                   
-                    
                     <div class="seance-card">
                         <h4>Séance creativ de moi</h4>
                         <a href="https://www.figma.com/design/i6u5fa17ClAUn64O4nzBtD/Untitled?node-id=0-1&p=f&t=aJYYezUcLiRIBsZ1-0">Voir le design</a>
-                        
                     </div>
                 </div>
             </div>
-           
-          
-            </div>
         </div>
+
+        <!-- ================= MODULE 2 ================= -->
         <div class="module-block reveal">
             <div class="module-block-head">
                 <span class="module-index">Module 2</span>
@@ -776,127 +769,110 @@ footer {
             <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 1</span>
-                    <span class="atelier-titre">Bases de données NoSQL</span>
+                    <span class="atelier-titre">Gestion de projet : méthodes classiques</span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance 1</h4>
                         <a href="/images/exercice1.jpeg">Voir exercice 1</a>
                         <a href="/images/exercice1logicial.jpeg">Voir exercice 1</a>
-                        
                     </div>
                     <div class="seance-card">
                         <h4>Séance 2</h4>
                         <a href="/images/Exercice2.jpeg">Voir exercice 2</a>
                         <a href="/images/exercice2logicial.jpeg">Voir exercice 2</a>
-                        
                     </div>
-                     <div class="seance-card">
+                    <div class="seance-card">
                         <h4>Séance 3</h4>
                         <a href="/images/WhatsApp Image 2026-09-30 at 10.51.24 (1).jpeg">Voir exercice 3</a>
                         <a href="/images/exercice3logicial.png">Voir exercice 3</a>
-                        
-                        
                     </div>
-                    </div>
-                   
                 </div>
-            
+            </div>
+
             <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 2</span>
-                    <span class="atelier-titre">Rédaction des User Stories</span>
+                    <span class="atelier-titre">Gestion de projet : Agile Scrum</span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance 4</h4>
                         <a href="Atwlier2agile.pdf">Voir exercice 1</a>
-                        
                     </div>
-                   
                 </div>
             </div>
+
             <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 3</span>
-                    <span class="atelier-titre">Sprint Planning</span>
+                    <span class="atelier-titre">Les bases de Git</span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance 5</h4>
                         <a href="Atelier3_Git_corrige_v2.pdf">Voir exercice 1</a>
-                        
                     </div>
-                    
                 </div>
             </div>
+
             <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 4</span>
-                    <span class="atelier-titre"></span>
+                    <span class="atelier-titre">GitHub</span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance 6</h4>
                         <a href="Acheto_Etapes.pdf">Voir exercice 1</a>
-                         <a href="https://acheto-6yzg7meac-norahamioui761-pixels-projects.vercel.app/?_vercel_share=OHNuxfYoX8pNYG9RuSYRH49ORGpGM4wv">Voir Github</a>
-                        
+                        <a href="https://acheto-6yzg7meac-norahamioui761-pixels-projects.vercel.app/?_vercel_share=OHNuxfYoX8pNYG9RuSYRH49ORGpGM4wv">Voir Github</a>
                     </div>
-                   
                 </div>
             </div>
-            
-            
-             <div class="atelier-block">
+
+            <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 5</span>
-                    <span class="atelier-titre"></span>
+                    <span class="atelier-titre">Git (exemple EFM)</span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance 7</h4>
                         <a href="Atelier5_Git_corrige_v1.pdf">Voir exercice 1</a>
-                         <a href="https://github.com/aouladhajyassmina-arch/travaille-colaboratif">Voir Github</a>
-                        
+                        <a href="https://github.com/aouladhajyassmina-arch/travaille-colaboratif">Voir Github</a>
                     </div>
-                    
-                     </div>
                 </div>
+            </div>
 
-
-                 <div class="atelier-block">
+            <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 6</span>
-                    <span class="atelier-titre"></span>
+                    <span class="atelier-titre">GitHub : prérequis du Sprint 3 (Acheto)</span>
                 </div>
                 <div class="seances-row">
-                     <div class="seance-card">
+                    <div class="seance-card">
                         <h4>Séance 8</h4>
                         <a href="https://atelier6-stagiaires.vercel.app">Voir exercice</a>
                         <a href="https://github.com/aouladhajyassmina-arch/atelier6-stagiaires">Voir Github</a>
-                        
                     </div>
-                  
-                     </div>
-                      <div class="atelier-block">
+                </div>
+            </div>
+
+            <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 7</span>
-                    <span class="atelier-titre"></span>
+                    <span class="atelier-titre">SonarQube dans une pipeline CI/CD GitLab</span>
                 </div>
-                      <div class="seances-row">
-                     <div class="seance-card">
+                <div class="seances-row">
+                    <div class="seance-card">
                         <h4>Séance 9</h4>
                         <a href="/Atelier7.pdf" target="_blank">Voir le rapport</a>
-                        
-                    </div> </div> </div>
-                    
-                     </div>
+                    </div>
                 </div>
             </div>
-             </div>
-            </div>
-            </div>
         </div>
+
+        <!-- ================= MODULE 3 ================= -->
         <div class="module-block reveal">
             <div class="module-block-head">
                 <span class="module-index">Module 3</span>
@@ -909,104 +885,96 @@ footer {
             <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 1</span>
-                    <span class="atelier-titre">Bases de données NoSQL</span>
+                    <span class="atelier-titre">SQL complet : requêtes, calculs, optimisation et sécurité</span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance 1</h4>
-                     <a href="RapportAtelier1modul3.pdf" target="_blank">Voir le rapport</a>
-                        
+                        <a href="RapportAtelier1modul3.pdf" target="_blank">Voir le rapport</a>
                     </div>
-                    
-                   
                 </div>
             </div>
+
             <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 2</span>
-                    <span class="atelier-titre">Modélisation de schémas</span>
+                    <span class="atelier-titre">Procédures et fonctions stockées en MySQL</span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance 2</h4>
                         <a href="RapportAtelier2modul3.pdf" target="_blank">Voir le rapport</a>
-                        
                     </div>
-                   
                 </div>
             </div>
+
             <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 3</span>
-                    <span class="atelier-titre">Requêtes et agrégations avancées</span>
+                    <span class="atelier-titre">Gestion d'un centre de formation avec procédures et fonctions stockées</span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance 3</h4>
                         <a href="RapportAtelier3modul3.pdf" target="_blank">Voir le rapport</a>
-                        
                     </div>
-                   
-                   
                 </div>
             </div>
+
             <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 4</span>
-                    <span class="atelier-titre">CRUD avec Mongoose</span>
+                    <span class="atelier-titre">Les curseurs en MySQL</span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance 4</h4>
                         <a href="RapportAtelier4modul3.pdf" target="_blank">Voir le rapport</a>
-                        
                     </div>
-                   
                 </div>
             </div>
-             <div class="atelier-block">
+
+            <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 5</span>
-                    <span class="atelier-titre">CRUD avec Mongoose</span>
+                    <span class="atelier-titre">MySQL : gestion des dossiers fonciers</span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance 5</h4>
                         <a href="RapportAtelier5modul3.pdf" target="_blank">Voir le rapport</a>
-                        
                     </div>
-                   
                 </div>
             </div>
-             <div class="atelier-block">
+
+            <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 6</span>
-                    <span class="atelier-titre">CRUD avec Mongoose</span>
+                    <span class="atelier-titre">Les triggers (déclencheurs) en MySQL</span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance 6</h4>
                         <a href="RapportAtelier6modul3.pdf" target="_blank">Voir le rapport</a>
-                        
                     </div>
-                   
                 </div>
-                 </div>
-             <div class="atelier-block">
+            </div>
+
+            <div class="atelier-block">
                 <div class="atelier-head">
                     <span class="atelier-pill">Atelier 7</span>
-                    <span class="atelier-titre">CRUD avec Mongoose</span>
+                    <span class="atelier-titre">Programmation avancée en SQL : procédures, fonctions et triggers</span>
                 </div>
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance 7</h4>
                         <a href="RapportAtelier7modul3.pdf" target="_blank">Voir le rapport</a>
-                        
                     </div>
-                   
                 </div>
             </div>
         </div>
+
+        <!-- ================= MODULE 4 ================= -->
         <div class="module-block reveal">
             <div class="module-block-head">
                 <span class="module-index">Module 4</span>
@@ -1025,9 +993,7 @@ footer {
                     <div class="seance-card">
                         <h4>Séance 1</h4>
                         <a href="RapportAtelier1modul4.pdf" target="_blank">Voir le rapport</a>
-                        
                     </div>
-                    
                 </div>
             </div>
             <div class="atelier-block">
@@ -1039,9 +1005,7 @@ footer {
                     <div class="seance-card">
                         <h4>Séance 2</h4>
                         <a href="#">Voir exercice 1</a>
-                        
                     </div>
-                    
                 </div>
             </div>
             <div class="atelier-block">
@@ -1053,9 +1017,7 @@ footer {
                     <div class="seance-card">
                         <h4>Séance atelier 3</h4>
                         <a href="#">Voir exercice 1</a>
-                        
                     </div>
-                    
                 </div>
             </div>
             <div class="atelier-block">
@@ -1067,12 +1029,12 @@ footer {
                     <div class="seance-card">
                         <h4>Séance atelier 4</h4>
                         <a href="#">Voir exercice 1</a>
-                        
                     </div>
-                   
                 </div>
             </div>
         </div>
+
+        <!-- ================= MODULE 5 ================= -->
         <div class="module-block reveal">
             <div class="module-block-head">
                 <span class="module-index">Module 5</span>
@@ -1091,9 +1053,7 @@ footer {
                     <div class="seance-card">
                         <h4>Séance atelier 1</h4>
                         <a href="#">Voir exercice 1</a>
-                        
                     </div>
-                    
                 </div>
             </div>
             <div class="atelier-block">
@@ -1105,9 +1065,7 @@ footer {
                     <div class="seance-card">
                         <h4>Séance atelier 2</h4>
                         <a href="#">Voir exercice 1</a>
-                        
                     </div>
-                   
                 </div>
             </div>
             <div class="atelier-block">
@@ -1119,9 +1077,7 @@ footer {
                     <div class="seance-card">
                         <h4>Séance atelier 3</h4>
                         <a href="#">Voir exercice 1</a>
-                        
                     </div>
-                    
                 </div>
             </div>
             <div class="atelier-block">
@@ -1133,12 +1089,12 @@ footer {
                     <div class="seance-card">
                         <h4>Séance atelier 4</h4>
                         <a href="#">Voir exercice 1</a>
-                        
                     </div>
-                   
                 </div>
             </div>
         </div>
+
+        <!-- ================= MODULE 6 ================= -->
         <div class="module-block reveal">
             <div class="module-block-head">
                 <span class="module-index">Module 6</span>
@@ -1157,9 +1113,7 @@ footer {
                     <div class="seance-card">
                         <h4>Séance atelier 1</h4>
                         <a href="#">Voir exercice 1</a>
-                        
                     </div>
-                   
                 </div>
             </div>
             <div class="atelier-block">
@@ -1171,9 +1125,7 @@ footer {
                     <div class="seance-card">
                         <h4>Séance atelier 2</h4>
                         <a href="#">Voir exercice 1</a>
-                        
                     </div>
-                   
                 </div>
             </div>
             <div class="atelier-block">
@@ -1185,9 +1137,7 @@ footer {
                     <div class="seance-card">
                         <h4>Séance atelier 3</h4>
                         <a href="#">Voir exercice 1</a>
-                        
                     </div>
-                   
                 </div>
             </div>
             <div class="atelier-block">
@@ -1199,12 +1149,12 @@ footer {
                     <div class="seance-card">
                         <h4>Séance atelier 4</h4>
                         <a href="#">Voir exercice 1</a>
-                        
                     </div>
-                   
                 </div>
             </div>
         </div>
+
+        <!-- ================= MODULE 7 ================= -->
         <div class="module-block reveal">
             <div class="module-block-head">
                 <span class="module-index">Module 7</span>
@@ -1223,9 +1173,7 @@ footer {
                     <div class="seance-card">
                         <h4>Séance atelier 1</h4>
                         <a href="#">Voir exercice 1</a>
-                        
                     </div>
-                    
                 </div>
             </div>
             <div class="atelier-block">
@@ -1237,9 +1185,7 @@ footer {
                     <div class="seance-card">
                         <h4>Séance atelier 2</h4>
                         <a href="#">Voir exercice 1</a>
-                        
                     </div>
-                   
                 </div>
             </div>
             <div class="atelier-block">
@@ -1251,9 +1197,7 @@ footer {
                     <div class="seance-card">
                         <h4>Séance atelier 3</h4>
                         <a href="#">Voir exercice 1</a>
-                        
                     </div>
-                   
                 </div>
             </div>
             <div class="atelier-block">
@@ -1265,11 +1209,12 @@ footer {
                     <div class="seance-card">
                         <h4>Séance atelier 4</h4>
                         <a href="#">Voir exercice 1</a>
-                        
                     </div>
                 </div>
             </div>
-        </div>    </div>
+        </div>
+
+    </div>
 </section>
 
 
