@@ -879,8 +879,9 @@ footer {
                 <h3>Gestion des données</h3>
                 <span class="module-duration">18h</span>
             </div>
-            <div class="module-sub">MongoDB (NoSQL)</div>
-            <p class="module-desc">Concevoir et interroger une base de données NoSQL pour stocker les informations d’une application de façon flexible et performante.</p>
+            <p class="module-desc">Découvrir la gestion des données avec SQL et NoSQL, et pratiquer les principaux concepts sur des bases de données relationnelles et documentaires.</p>
+
+            <div class="module-sub">Partie 1 — SQL</div>
 
             <div class="atelier-block">
                 <div class="atelier-head">
@@ -969,6 +970,36 @@ footer {
                     <div class="seance-card">
                         <h4>Séance 7</h4>
                         <a href="RapportAtelier7modul3.pdf" target="_blank">Voir le rapport</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="module-sub">Partie 2 — NoSQL (MongoDB)</div>
+
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 1</span>
+                    <span class="atelier-titre">Prise en main de MongoDB et opérations CRUD</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance 1</h4>
+                        <span>Créer une base et une collection, puis insérer, consulter, modifier et supprimer des documents.</span>
+                        <a href="RapportAtelier1modul3nosql.pdf" target="_blank">Voir le rapport</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="atelier-block">
+                <div class="atelier-head">
+                    <span class="atelier-pill">Atelier 2</span>
+                    <span class="atelier-titre">Requêtes, filtres et agrégations avec MongoDB</span>
+                </div>
+                <div class="seances-row">
+                    <div class="seance-card">
+                        <h4>Séance 2</h4>
+                        <span>Filtrer et trier les documents, appliquer des opérateurs et réaliser des agrégations simples.</span>
+                        <a href="RapportAtelier2modul3nosql.pdf" target="_blank">Voir le rapport</a>
                     </div>
                 </div>
             </div>
