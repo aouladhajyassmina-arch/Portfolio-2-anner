@@ -1004,7 +1004,7 @@ footer {
                 <div class="seances-row">
                     <div class="seance-card">
                         <h4>Séance 2</h4>
-                        <a href="#">Voir exercice 1</a>
+                        <a href="RapportAtelier2modul4.pdf" target="_blank">Voir le rapport</a>
                     </div>
                 </div>
             </div>
